@@ -3,7 +3,7 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
 name: Sima Didari
@@ -48,9 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Sabzi Pollo and DjonDjon rice</mark>
+  Hi, my name is Sima and I'm a senior staff AI scientist at SamsungSDS AI Science lab in San Jose CA. 
+  I am most skilled in: <mark>Machine Learning</mark> , <mark>Generative AI</mark>,  <mark>Generative AI</mark>
 
 content:
 
@@ -58,15 +57,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Samsung SDS
+        link: www.samsungsds.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Senior Staff AI scientist
+        caption: Feb 2019 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          *Job description* : Establishing technical goals,  Leading the task force for Technology Development, Technology Transfer, Technology Verification, Level Comparison for Samsung products/services to have sufficient competitiveness while meeting customer needs. Developing solution/service-differentiated technologies to secure a competitive advantage in business. Collaboration across Samsung’s entities or external entitie
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          By comparing/analyzing our competencies with competitors/prior technologies, establish technical goals that make our products/services to have sufficient competitiveness while meeting customer need
+            
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -75,12 +75,13 @@ content:
         title: Georgia Institute of Technology
         caption: 2009 - 2014
         sub_title: Ph.D. & M.S., Mechanical Engineering 
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        quote: > 
+          Research topics: Computer-Aided Engineering (CAE), Topological Characterization, Image Proessing, Genetic Algorithm (GA) Optimization
+          
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Deployed Optimal Transport based Domain Adaptation Deep Learning model used for medical image classification
+          
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
   
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
@@ -107,11 +108,10 @@ content:
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Rock climbing
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    # Look at this cool image  
+    # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
