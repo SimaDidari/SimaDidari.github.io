@@ -62,8 +62,10 @@ content:
         # link_text: boringcompany.com
         sub_title: Senior Staff AI scientist
         caption: Feb 2019 - Present
-        quote: >
-          Establishing technical goals,  Leading the task force for Technology Development, Technology Transfer, Technology Verification, Level Comparison for Samsung products/services to have sufficient competitiveness while meeting customer needs. 
+        quote: > 
+          Job description : Establishing technical goals,  Leading the task force for Technology Development, Technology Transfer, Level Comparison for Samsung products/services to have sufficient competitiveness while meeting customer needs. 
+          Developing solution/service-differentiated technologies to secure a competitive advantage in business. Collaboration across Samsung’s entities or external entities 
+          
         description: | # this will include new lines to allow paragraphs
           By comparing/analyzing our competencies with competitors/prior technologies, establish technical goals that make our products/services to have sufficient competitiveness while meeting customer need
             
