@@ -87,7 +87,7 @@ content:
           
 
   
-  - title: Publications # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -105,7 +105,21 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+  
+  
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Bayesian semantic segmentation active learning with Beta approximation, 20230368507
+      - Object discovery, 20220383105
+      - Unsupervised representation learning and active learning to improve data efficiency, 20220138935
+      - Long short-term memory anomaly detection for multi-sensor equipment monitoring, 20200104639
+      - Correcting component failures in ion implant semiconductor manufacturing tool, 11348813
+      - Chamber matching with neural networks in semiconductor equipment tools, 11133204
+      - Magnetic mixer, 11097236
+      - Magnetic drive for bioreactor, 10335750
+      - System and method for characterizing conditions in a fluid mixing devices, 10682618
+  
   - title: Patents
     layout: text
     content: | # this will include new lines to allow paragraphs
