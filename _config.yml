@@ -67,7 +67,10 @@ content:
           Developing solution/service-differentiated technologies to secure a competitive advantage in business. Collaboration across Samsung’s entities or external entities 
           
         description: | # this will include new lines to allow paragraphs
-        - Developed Bayesian Semantic Segmentation Active Learning models for 2D and 3D images (reached supervised performance with less than %1 of labels) & multi-view scenes data            
+          Multi-view 3D semnatic segmentation 
+          active learning for 2D object detection, classification and semantic segmenttaion
+          uncertanity verification 
+            
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
