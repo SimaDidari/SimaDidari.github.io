@@ -107,13 +107,16 @@ content:
   - title: Patents
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-    # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Bayesian semantic segmentation active learning with Beta approximation, 20230368507
+      - Object discovery, 20220383105
+      - Unsupervised representation learning and active learning to improve data efficiency, 20220138935
+      - Long short-term memory anomaly detection for multi-sensor equipment monitoring, 20200104639
+      - Correcting component failures in ion implant semiconductor manufacturing tool, 11348813
+      - Chamber matching with neural networks in semiconductor equipment tools, 11133204
+      - Magnetic mixer, 11097236
+      - Magnetic drive for bioreactor, 10335750
+      - System and method for characterizing conditions in a fluid mixing devices, 10682618
 
-    # Look at this cool image  
-    # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
