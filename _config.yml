@@ -49,7 +49,6 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Sima and I'm a senior staff AI scientist at SamsungSDS AI Science lab in San Jose CA. 
-  I am most skilled in: <mark>Machine Learning</mark> , <mark>Generative AI</mark>,  <mark>Generative AI</mark>
 
 content:
 
@@ -63,7 +62,7 @@ content:
         sub_title: Senior Staff AI scientist
         caption: Feb 2019 - Present
         quote: >
-          *Job description* : Establishing technical goals,  Leading the task force for Technology Development, Technology Transfer, Technology Verification, Level Comparison for Samsung products/services to have sufficient competitiveness while meeting customer needs. Developing solution/service-differentiated technologies to secure a competitive advantage in business. Collaboration across Samsung’s entities or external entitie
+          Establishing technical goals,  Leading the task force for Technology Development, Technology Transfer, Technology Verification, Level Comparison for Samsung products/services to have sufficient competitiveness while meeting customer needs. 
         description: | # this will include new lines to allow paragraphs
           By comparing/analyzing our competencies with competitors/prior technologies, establish technical goals that make our products/services to have sufficient competitiveness while meeting customer need
             
