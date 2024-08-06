@@ -82,10 +82,10 @@ content:
           Research topics: Computer-Aided Engineering (CAE), Topological Characterization \& Optmization, Image Proessing
           
         description: | # this will include new lines to allow paragraphs
-          Developed Periodic Surface mathemathical models to represent the topology of microstructures
-          Developed voxel-based representations for 3D composite microstructures
-          Conducted topological characterization of 3D models using graph representations
-          Conducted Topology Optimization for 3D voxel represenation of the 3D volumes using GA
+          - Developed Periodic Surface parametric models to represent the topology of microstructures
+          - Developed voxel-based representations for 3D composite microstructures
+          - Conducted topological characterization of 3D models using graph representations
+          - Conducted Topology Optimization for 3D voxel represenation of the 3D volumes using GA
 
       - layout: left
         title: University of Tehran 
