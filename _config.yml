@@ -93,8 +93,8 @@ content:
         title: University of Tehran 
         caption: 2001 - 2005
         sub_title: B.S., Mechanical Engineering 
-        quote: > 
-          Research topics: Computer-Aided Engineering (CAE), Topological Characterization, Image Proessing, Genetic Algorithm (GA) Optimization
+        # quote: > 
+        #   Research topics: Computer-Aided Engineering (CAE), Topological Characterization, Image Proessing, Genetic Algorithm (GA) Optimization
           
 
 
