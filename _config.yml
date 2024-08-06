@@ -59,7 +59,6 @@ content:
       - layout: left
         title: Samsung SDS
         link: www.samsungsds.com
-        # link_text: boringcompany.com
         sub_title: Senior Staff AI scientist
         caption: Feb 2019 - Present
         quote: > 
@@ -84,7 +83,15 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           Deployed Optimal Transport based Domain Adaptation Deep Learning model used for medical image classification
+
+      - layout: left
+        title: University of Tehran 
+        caption: 2001 - 2005
+        sub_title: B.S., Mechanical Engineering 
+        quote: > 
+          Research topics: Computer-Aided Engineering (CAE), Topological Characterization, Image Proessing, Genetic Algorithm (GA) Optimization
           
+
 
   
   - title: Projects # Title for the section
