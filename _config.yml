@@ -48,8 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Sima and I'm a Senior Staff AI Scientist at SamsungSDS AI Science Lab in San Jose CA. Prior to Samsung, I worked as a Data Scientist, and Probabilistic Engineer for Applied Materials and GE Global Research.
-  My background is in Bayesian Machine Learning, Deep Learning, and Genrative AI. I received my PhD from Georgia Institute of Technology on Topology Optmization for Computer-Aided-Enginerring (CEA) of porous compsite microsrtuctures under supervision of Professor Tequila Harris. 
+  Hi, my name is Sima and I'm a Senior Staff AI Scientist at SamsungSDS AI Science lab in San Jose CA. Prior to Samsung, I worked as a Data Scientist, and Probabilistic Engineer for Applied Materials and GE Global Research.
+  My background is in Bayesian machine learning, deep learning, and genrative AI. I received my PhD from Georgia Institute of Technology on modeling the statistically udetermined geometries under supervision of Professor Tequila Harris. 
 
 content:
 
@@ -91,7 +91,8 @@ content:
         title: University of Tehran 
         caption: 2001 - 2005
         sub_title: B.S., Mechanical Engineering 
-        
+        quote: > 
+          Research topics: Computer-Aided Engineering (CAE), Topological Characterization, Image Proessing, Genetic Algorithm (GA) Optimization
           
 
 
