@@ -84,10 +84,10 @@ content:
           Research topics: Computer-Aided Engineering (CAE), Topological Characterization \& Optmization, Image Proessing
           
         description: | # this will include new lines to allow paragraphs
-          - Developed Periodic Surface parametric models to represent the topology of microstructures
+          - Developed periodic surface parametric models to represent the topology of microstructures
           - Developed voxel-based representations for 3D composite microstructures
           - Conducted topological characterization of 3D models using graph representations
-          - Conducted Topology Optimization for 3D voxel represenation of the 3D volumes using GA
+          - Conducted topology optimization for voxel representation of 3D volumes using GA
 
       - layout: left
         title: University of Tehran 
@@ -116,7 +116,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio.
+          If you don't have a project as awesome as this I would advise you make one.
   
   
   - title: Publications
