@@ -64,20 +64,20 @@ content:
         sub_title: Senior Staff AI scientist
         caption: Feb 2019 - Present
         quote: > 
-          Job description : Establishing technical goals,  Leading the task force and collaborating across Samsung’s entities or external entities for Technology Development, Technology Transfer. 
-          Developing solution & service-differentiated technologies to secure a competitive advantage in business. 
+          Job description : Establishing technical goals,  Leading the task force and collaborating across Samsung’s entities or external entities for Technology development & technology transfer. 
+          Developing and deploying products, solutions & service-differentiated technologies to secure a competitive advantage in business. 
           
         description: | # this will include new lines to allow paragraphs
           - Generative AI and Large Language Model development:
             - Text-to-SQL model development
-            - Data efficient LLM alignment 
-            - Development of LLMs for multi-modal data in text, image, speech signal, and tabular formats
-            - Uncertainty and model calibration for text-image CLIP based multi-modal and large language models
+            - Development of data efficient alignment of LLMs
+            - Development of tailored multi modal LLMs for data in text, image, and tabular formats
+            - Uncertainty quantification and model calibration for text-image multi-modal and large language models
           
           - Data efficient Deep Learning and AI:
             - Development of Representation and Unsupervised Learning algorithms for reducing the labeling need for Deep Learning models 
 
-          - Computer Visoin:
+          - Computer Vision:
             - Developed active learning and Unsupervised accuracy estimation framework for classification, semantic segmentation
             - Developed probabilistic Multi-View 3D semantic segmentation uncertainty and active learning framework
 
