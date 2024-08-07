@@ -64,6 +64,7 @@ content:
         sub_title: Senior Staff AI scientist
         caption: Feb 2019 - Present
         quote: > 
+          layout: left
           Job description : Establishing technical goals,  Leading the task force and collaborating across Samsung’s entities or external entities for Technology development & technology transfer. 
           Developing and deploying products, solutions & service-differentiated technologies to secure a competitive advantage in business. 
           
@@ -82,7 +83,7 @@ content:
             - Developed probabilistic Multi-View 3D semantic segmentation uncertainty and active learning framework
 
           - Predictive data analytics:
-            - Developed forecasting sales models for Samsung business units 
+            - Developed sale forecasting models for Samsung business units 
             - Optimized marketing strategies for sale campaigns 
             
 
