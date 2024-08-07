@@ -68,9 +68,22 @@ content:
           Developing solution & service-differentiated technologies to secure a competitive advantage in business. 
           
         description: | # this will include new lines to allow paragraphs
-          Multi-view 3D semnatic segmentation 
-          active learning for 2D object detection, classification and semantic segmenttaion
-          uncertanity verification 
+          - Generative AI and Large Language Model development:
+            - Text-to-SQL model development
+            - Data efficient LLM alignment 
+            - Development of LLMs for multi-modal data in text, image, speech signal, and tabular formats
+            - Uncertainty and model calibration for text-image CLIP based multi-modal and large language models
+          
+          - Data efficient Deep Learning and AI:
+            - Development of Representation and Unsupervised Learning algorithms for reducing the labeling need for Deep Learning models 
+
+          - Computer Visoin:
+            - Developed active learning and Unsupervised accuracy estimation framework for classification, semantic segmentation
+            - Developed probabilistic Multi-View 3D semantic segmentation uncertainty and active learning framework
+
+          - Predictive data analytics:
+            - Developed forecasting sales models for Samsung business units 
+            - Optimized marketing strategies for sale campaigns 
             
 
   - title: Education # Title for the section
