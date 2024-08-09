@@ -115,7 +115,7 @@ content:
   
 
   
-  - title: Publications
+  - title: Selected Publications
     layout: text
     
     content: | # this will include new lines to allow paragraphs
@@ -132,7 +132,7 @@ content:
 
 
   
-  - title: Patents
+  - title: Selected Patents
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Bayesian semantic segmentation active learning with Beta approximation, 20230368507
@@ -154,9 +154,9 @@ content:
         link: https://github.com/P-B-U/proxy_based_uncertainty.git
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Proxy-based uncertainty
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/P-B-U/proxy_based_uncertainty.git
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
