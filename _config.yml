@@ -150,8 +150,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
+        link: https://github.com/P-B-U/proxy_based_uncertainty.git
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
