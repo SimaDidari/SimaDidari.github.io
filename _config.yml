@@ -128,6 +128,8 @@ content:
       - Magnetic mixer, 11097236
       - Magnetic drive for bioreactor, 10335750
       - System and method for characterizing conditions in a fluid mixing devices, 10682618
+
+
   
   - title: Patents
     layout: text
@@ -166,7 +168,7 @@ content:
 
 
 # Footer
-footer_show_references: true
+footer_show_references: False
 # references_title: References on request (Override references text)
 
 # Build settings
