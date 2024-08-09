@@ -34,6 +34,12 @@ additional_links:
 - title: GoogleScholar
   icon: fas fa-globe
   url: https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en
+
+
+additional_links:
+- title: GoogleScholar
+  icon: fas fa-github proxy llm
+  url: https://github.com/SimaDidari/proxy_based_uncertainty
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -152,7 +158,7 @@ content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
         link: https://github.com/SimaDidari/proxy_based_uncertainty
-        icon: fab fa-github
+        icon: fas fa-github proxy llm
         # link_text: Project Website
         # additional_links:
         #   - title:  Proxy-based uncertainty
