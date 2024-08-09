@@ -119,8 +119,9 @@ content:
     layout: text
     
     content: | # this will include new lines to allow paragraphs
-      - Bayesian semantic segmentation active learning with Beta approximation, 20230368507
-      - Object discovery, 20220383105
+      - Bayesian Active Learning for Semantic Segmentation, arXiv:2408.01694, 2024, 
+        - url: Link to project (https://arxiv.org/pdf/2408.01694)
+      - Improving Instruction Following in Language Models through Proxy-Based Uncertainty Estimation, ICML 2024
       - Unsupervised representation learning and active learning to improve data efficiency, 20220138935
       - Long short-term memory anomaly detection for multi-sensor equipment monitoring, 20200104639
       - Correcting component failures in ion implant semiconductor manufacturing tool, 11348813
