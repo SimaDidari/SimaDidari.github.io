@@ -151,15 +151,14 @@ content:
     content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
-        link: https://github.com/P-B-U/proxy_based_uncertainty.git
+        link: https://github.com/SimaDidari/proxy_based_uncertainty
+        icon: fab fa-github
         # link_text: Project Website
-        additional_links:
-          - title:  Proxy-based uncertainty
-            icon: fab fa-github
-            url: https://github.com/P-B-U/proxy_based_uncertainty.git
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # additional_links:
+        #   - title:  Proxy-based uncertainty
+        #     icon: fab fa-github
+        #     url: https://github.com/P-B-U/proxy_based_uncertainty.git
+
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
