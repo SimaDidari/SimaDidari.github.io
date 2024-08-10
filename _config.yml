@@ -187,10 +187,7 @@ content:
             Vicuna and MT-bench.
 
           The code & data for the paper are shared at [P-B-U Git Repo](https://github.com/SimaDidari/proxy_based_uncertainty) 
-          - Lists
-          - Tables
-          - <a href="google.com">Links</a>
-          - Images ![alt text](/images/proxy_concept.jpg "proxy concept")
+          - Images ![alt text](/images/dpo.jpg "proxy concept")
   
 
 
