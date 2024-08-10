@@ -166,9 +166,11 @@ content:
     content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
-        link: https://github.com/SimaDidari/proxy_based_uncertaint
+        
         quote: >
           The code for the project is shared at the Git repository above.
+
+        link: https://github.com/SimaDidari/proxy_based_uncertaint
         description: | # this will include new lines to allow paragraphs
           We propose a novel Uncertainty-aware Reward Model (URM) that introduces a
           robust uncertainty estimation for the quality of paired responses based on Bayesian approximation.
