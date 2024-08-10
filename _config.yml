@@ -120,6 +120,7 @@ content:
    
     layout: text
     content: | # this will include new lines to allow paragraphs
+    My Google Scholar profile is :  [links](http://foobar.com)
       - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
       - Bayesian active learning for semantic segmentation, arXiv:2408.01694, (2024)
       - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
@@ -168,7 +169,7 @@ content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
         link : https://arxiv.org/abs/2405.06424
-        link_text: The arXiv link
+        link_text: arXiv link
         additional_links:
           - title:  GitHub page for the project
             icon: fab fa-github
