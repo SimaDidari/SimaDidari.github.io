@@ -72,12 +72,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Generative AI and Large Language Model development:
             - Text-to-SQL model development
-            - Development of data efficient alignment of LLMs
             - Development of tailored multi modal LLMs for data in text, image, and tabular formats
             - Uncertainty quantification and model calibration for text-image multi-modal and large language models
           
           - Data efficient Deep Learning and AI:
-            - Development of Representation and Unsupervised Learning algorithms for reducing the labeling need for Deep Learning models 
+            - Development of Representation and Unsupervised Learning algorithms for reducing the labeling need for 
+              Deep Learning models 
+            - Development of data efficient alignment of LLMs
 
           - Computer Vision:
             - Developed active learning and Unsupervised accuracy estimation framework for classification, semantic segmentation
@@ -120,7 +121,7 @@ content:
    
     layout: text
     content: | # this will include new lines to allow paragraphs
-        My Google Scholar profile is :  [links](http://foobar.com)
+      - My Google Scholar profile is :  [links](http://foobar.com)
       - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
       - Bayesian active learning for semantic segmentation, arXiv:2408.01694, (2024)
       - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
