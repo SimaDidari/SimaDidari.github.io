@@ -159,9 +159,9 @@ content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
         link : https://arxiv.org/abs/2405.06424
-        link_text: Uncertanity-aware Reward Model for preference finetuning of LLMs
-        dditional_links:
-          - title:  Github page for project
+        link_text: The arXiv link
+        additional_links:
+          - title:  GitHub page for the project
             icon: fab fa-github
             url: https://github.com/SimaDidari/proxy_based_uncertainty
         quote: >
