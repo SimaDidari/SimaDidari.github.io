@@ -50,7 +50,9 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Sima and I'm a Senior Staff AI Scientist at Samsung SDS AI Science Lab in San Jose CA. 
   Prior to Samsung, I worked as a Data Scientist, and Probabilistic Engineer for Applied Materials and GE Global Research.
   My background is in Bayesian Machine Learning, Deep Learning, and Generative AI. 
-  I received my PhD from Georgia Institute of Technology on Topology Optimization for Computer-Aided-Design (CAE) of microstructures under the supervision of Professor Tequila Harris. 
+  I received my PhD from Georgia Institute of Technology on Topology Optimization
+   for Computer-Aided Engineering (CAE) of microstructures under the supervision 
+   of Professor Tequila Harris. 
 
 content:
 
@@ -116,13 +118,20 @@ content:
   
   - title: Selected Publications
    
-    layout: list # Type of content section (list/text)
-    
-    content:
-      - layout: middle
-        title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
-        link: https://github.com/SimaDidari/proxy_based_uncertaint
-
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
+      - Bayesian active learning for semantic segmentation, arXiv:2408.01694, (2024)
+      - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
+         Accepted at AAAI, (2023)
+      - Highly efficient representation and active learning framework for imbalanced data and
+         its application to COVID-19 X-Ray classification, NeurIPS Data-Centric AI workshop, (2021)
+      - Active learning performance in labeling radiology images is 90% Effective, Frontiers in Radiology,
+        (2021)
+      - PatchNet: Unsupervised object discovery based on patch embedding, arXiv:2016.08599, (2021)
+      - Modeling and optimizing the impact of process and equipment parameters in sputtering
+         deposition systems using a Gaussian process machine learning framework, 
+         IEEE Transactions on Semiconductor Manufacturing, (2021)
 
   
   - title: Selected Patents
