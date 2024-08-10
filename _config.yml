@@ -121,7 +121,7 @@ content:
    
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - My Google Scholar profile is :  [links](http://foobar.com)
+      - My full publication list can be found at [Scholar profile](https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en)
       - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
       - Bayesian active learning for semantic segmentation, arXiv:2408.01694, (2024)
       - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
