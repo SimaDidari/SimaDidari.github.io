@@ -186,8 +186,9 @@ content:
           thereby surpassing existing methods by a large margin on benchmarks such as
             Vicuna and MT-bench.
 
-          The code & data for the paper are shared at [P-B-U Git Repo](https://github.com/SimaDidari/proxy_based_uncertainty) 
-          - Images ![alt text](/images/dpo.jpg "proxy concept")
+          
+          - The code & data for the paper are shared at [P-B-U Git Repo](https://github.com/SimaDidari/proxy_based_uncertainty)
+           ![alt text](/images/dpo.jpg "proxy concept")
   
 
 
