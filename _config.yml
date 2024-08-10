@@ -36,13 +36,6 @@ additional_links:
   url: https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en
 
 
-additional_links:
-- title: GoogleScholar
-  icon: fas fa-github proxy llm
-  url: https://github.com/SimaDidari/proxy_based_uncertainty
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -126,7 +119,7 @@ content:
     layout: list # Type of content section (list/text)
     
     content:
-      - layout: left
+      - layout: middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
         link: https://github.com/SimaDidari/proxy_based_uncertaint
 
@@ -158,29 +151,29 @@ content:
          contribution to Artificial Lift Optimization project, (2016)
       - ASME's International Engineering Congress and Exposition outstanding research award, (2012)
 
-
-
+          
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
-        
+        link : https://arxiv.org/abs/2405.06424
+        link_text: Uncertanity-aware Reward Model for preference finetuning of LLMs
+        dditional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/SimaDidari/proxy_based_uncertainty
         quote: >
-          The code for the project is shared at the Git repository above.
-
-        link: https://github.com/SimaDidari/proxy_based_uncertaint
+          Accepted at ICML 2024
         description: | # this will include new lines to allow paragraphs
-          We propose a novel Uncertainty-aware Reward Model (URM) that introduces a
-          robust uncertainty estimation for the quality of paired responses based on Bayesian approximation.
-          Trained with preference datasets, our uncertainty-enabled proxy not only scores rewards for responses 
-          but also evaluates their inherent uncertainty. 
-          Also, boosts the instruction following capability of language models 
-          by refining data curation for training and improving policy optimization objectives, 
-          thereby surpassing existing methods by a large margin on benchmarks such as Vicuna and MT-bench. 
-          These findings highlight that our proposed approach substantially advances language model training and 
-          paves a new way of harnessing uncertainty within language models
+          We defined a novel Uncertainty-aware Reward Model (URM) for the preference training of LLMs.
+          The URM proxy quantifies the uncertainty of paired responses based on Bayesian approximation.
+          Incorporating the proposed proxy into language model training boosts the instruction
+          following capability of language models by refining data curation for training 
+           and improving policy optimization objectives, 
+          thereby surpassing existing methods by a large margin on benchmarks such as
+            Vicuna and MT-bench.
   
 
 
