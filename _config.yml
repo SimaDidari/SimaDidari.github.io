@@ -146,6 +146,21 @@ content:
       - System and method for characterizing conditions in a fluid mixing devices, 10682618
 
 
+  - title: Awards & Recognitions
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Samsung SDS Circle of Excellence Award granted by CEO of Samsung SDS
+        for Outstanding performance, Creativity, Organizational abilities and Team Work, (2022)
+      - Best Presentation Award at Future of Information and Communication Conference (FICC), 
+        for the paper titled "Medical Image Labeling via Active Learning is 90% Effective", (2022)
+      - GE Above & Beyond Award for development of automated probabilistic testing framework, (2017)
+      - GE Global Research Aero-Thermal Mechanical System (ATMS) impact award for outstanding
+         contribution to Artificial Lift Optimization project, (2016)
+      - ASME's International Engineering Congress and Exposition outstanding research award, (2012)
+
+
+
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
