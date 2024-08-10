@@ -163,8 +163,19 @@ content:
         quote: >
           The code for the project is shared at the Git repository above.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio.
-          If you don't have a project as awesome as this I would advise you make one.
+          - Assessing response quality to instructions in language models is vital but challenging due to the 
+          complexity of human language across different contexts. This complexity often results
+          in ambiguous or inconsistent interpretations, making accurate assessment difficult. 
+          To address this issue, we propose a novel Uncertainty-aware Reward Model (URM) that introduces a
+          robust uncertainty estimation for the quality of paired responses based on Bayesian approximation.
+          Trained with preference datasets, our uncertainty-enabled proxy not only scores rewards for responses 
+          but also evaluates their inherent uncertainty. 
+          Empirical results demonstrate significant benefits of incorporating the proposed proxy into language model
+          training. Our method boosts the instruction following capability of language models 
+          by refining data curation for training and improving policy optimization objectives, 
+          thereby surpassing existing methods by a large margin on benchmarks such as Vicuna and MT-bench. 
+          These findings highlight that our proposed approach substantially advances language model training and 
+          paves a new way of harnessing uncertainty within language models
   
 
 
