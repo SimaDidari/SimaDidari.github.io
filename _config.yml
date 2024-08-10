@@ -122,19 +122,13 @@ content:
 
   
   - title: Selected Publications
-    layout: text
+   
+    layout: list # Type of content section (list/text)
     
-    content: | # this will include new lines to allow paragraphs
-      - Bayesian Active Learning for Semantic Segmentation, arXiv:2408.01694, 2024, 
-        - url: Link to project (https://arxiv.org/pdf/2408.01694)
-      - Improving Instruction Following in Language Models through Proxy-Based Uncertainty Estimation, ICML 2024
-      - Unsupervised representation learning and active learning to improve data efficiency, 20220138935
-      - Long short-term memory anomaly detection for multi-sensor equipment monitoring, 20200104639
-      - Correcting component failures in ion implant semiconductor manufacturing tool, 11348813
-      - Chamber matching with neural networks in semiconductor equipment tools, 11133204
-      - Magnetic mixer, 11097236
-      - Magnetic drive for bioreactor, 10335750
-      - System and method for characterizing conditions in a fluid mixing devices, 10682618
+    content:
+      - layout: left
+        title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
+        link: https://github.com/SimaDidari/proxy_based_uncertaint
 
 
   
@@ -157,21 +151,15 @@ content:
     content:
       - layout: top-middle
         title: Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models
-        link: https://github.com/SimaDidari/proxy_based_uncertainty
-        icon: fas fa-github proxy llm
-
+        link: https://github.com/SimaDidari/proxy_based_uncertaint
         quote: >
           The code for the project is shared at the Git repository above.
         description: | # this will include new lines to allow paragraphs
-          - Assessing response quality to instructions in language models is vital but challenging due to the 
-          complexity of human language across different contexts. This complexity often results
-          in ambiguous or inconsistent interpretations, making accurate assessment difficult. 
-          To address this issue, we propose a novel Uncertainty-aware Reward Model (URM) that introduces a
+          We propose a novel Uncertainty-aware Reward Model (URM) that introduces a
           robust uncertainty estimation for the quality of paired responses based on Bayesian approximation.
           Trained with preference datasets, our uncertainty-enabled proxy not only scores rewards for responses 
           but also evaluates their inherent uncertainty. 
-          Empirical results demonstrate significant benefits of incorporating the proposed proxy into language model
-          training. Our method boosts the instruction following capability of language models 
+          Also, boosts the instruction following capability of language models 
           by refining data curation for training and improving policy optimization objectives, 
           thereby surpassing existing methods by a large margin on benchmarks such as Vicuna and MT-bench. 
           These findings highlight that our proposed approach substantially advances language model training and 
