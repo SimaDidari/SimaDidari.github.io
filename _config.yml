@@ -66,23 +66,23 @@ content:
         caption: Feb 2019 - Present
       
         quote: >
-          Job description : Establishing technical goals,  Leading the task force and collaborating across Samsung’s entities or external entities for Technology development & technology transfer. 
-          Developing and deploying products, solutions & service-differentiated technologies to secure a competitive advantage in business. 
+          Job description : Establishing technical goals,  
+          Leading task force & collaboration across Samsung’s or external entities for Technology Development
+           & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages in business. 
           
         description: | # this will include new lines to allow paragraphs
-          - Generative AI and Large Language Model development:
-            - Text-to-SQL model development
+          - Generative AI:
             - Development of tailored multi modal LLMs for data in text, image, and tabular formats
             - Uncertainty quantification and model calibration for text-image multi-modal and large language models
           
           - Data efficient Deep Learning and AI:
             - Development of Representation and Unsupervised Learning algorithms for reducing the labeling need for 
               Deep Learning models 
-            - Development of data efficient alignment of LLMs
+            - Development of data efficient alignment methods for LLMs
 
           - Computer Vision:
-            - Developed active learning and Unsupervised accuracy estimation framework for classification, semantic segmentation
-            - Developed probabilistic Multi-View 3D semantic segmentation uncertainty and active learning framework
+            - Active Learning and Unsupervised accuracy estimation for classification, semantic segmentation
+            - Probabilistic Multi-View 3D semantic segmentation segmwntation Deep Learning Active Learning framework
 
           - Predictive data analytics:
             - Developed sale forecasting models for Samsung business units 
@@ -97,7 +97,7 @@ content:
         caption: 2009 - 2014
         sub_title: Ph.D. & M.S., Mechanical Engineering 
         quote: > 
-          Research topics: Computer-Aided Engineering (CAE), Topological Characterization \& Optmization, Image Proessing
+          Research topics: CAE, Topological Characterization & Optmization, Image Proessing
           
         description: | # this will include new lines to allow paragraphs
           - Developed periodic surface parametric models to represent the topology of microstructures
@@ -121,7 +121,8 @@ content:
    
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - My full publication list can be found at [Scholar profile](https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en)
+      - My full publication list can be found at [Scholar profile](https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en).
+      Here is the list of my recent publictions. 
       - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
       - Bayesian active learning for semantic segmentation, arXiv:2408.01694, (2024)
       - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
