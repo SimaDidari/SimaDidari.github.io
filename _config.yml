@@ -179,12 +179,11 @@ content:
         quote: >
           Accepted at ICML 2024
         description: | # this will include new lines to allow paragraphs
-          We defined a novel Uncertainty-aware Reward Model (URM) for the preference training of LLMs.
-          The URM proxy quantifies the uncertainty of paired responses based on Bayesian approximation.
-          Incorporating the proposed proxy into language model training boosts the instruction
-          following capability of language models by refining data curation for training 
-           and improving policy optimization objectives, 
-          thereby surpassing existing methods by a large margin on benchmarks such as
+          We defined a novel Uncertainty-aware Reward Model (URM) for the preference training of LLMs 
+          based on Bayesian approximation to quantify the uncertainty of paired responses.
+          We experimentally demonstrated that using URM in LLMs training boosts their instruction
+          following capability and their policy optimization objectives, 
+          The URM based finetuning surpasses existing methods by a large margin on benchmarks such as
             Vicuna and MT-bench.
 
           
