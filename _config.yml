@@ -87,6 +87,26 @@ content:
           - Predictive data analytics:
             - Developed sale forecasting models for Samsung business units 
             - Optimized marketing strategies for sale campaigns 
+
+      content:
+      - layout: left
+        title: Applied Materials
+        link: www.appliedmaterials.com
+        sub_title: Senior Data Scientist
+        caption: Nov 2017 - Present
+      
+        quote: >
+          Job description : EDevelopment, deployment & maintenance of AI solutions to increase the performance and 
+          productivity of engineering, services and supply chain tasks
+           & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages in business. 
+          
+        # description: | # this will include new lines to allow paragraphs
+        #   - Development, deployment & maintenance of AI solutions to increase the performance 
+        #     and productivity of engineering, services and supply chain tasks
+          
+        #   - Leading AI app productization in collaboration with Software, UI, DevOp teams & internal or external customers
+
+
             
 
   - title: Education # Title for the section
