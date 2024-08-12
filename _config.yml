@@ -60,33 +60,37 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Samsung SDS
+        title: Samsung SDS, 
         link: www.samsungsds.com
         sub_title: Senior Staff AI scientist
         caption: Feb 2019 - Present
       
         quote: >
-          Job description : Establishing technical goals,  
-          Leading task force & collaboration across Samsung’s or external entities for Technology Development
-           & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages in business. 
+          AI Science Lab, San Jose, CA, USA 
           
         description: | # this will include new lines to allow paragraphs
-          - Generative AI:
-            - Development of tailored multi modal LLMs for data in text, image, and tabular formats
-            - Uncertainty quantification and model calibration for text-image multi-modal and large language models
+          - Responsibilities : Establishing technical goals,  
+              Leading task force & collaborations across Samsung’s or external entities for Technology Development
+              & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages. 
           
-          - Data efficient Deep Learning and AI:
-            - Development of Representation and Unsupervised Learning algorithms for reducing the labeling need for 
-              Deep Learning models 
-            - Development of data efficient alignment methods for LLMs
+          - Projects:
+            - Generative AI:
+              - Development of tailored multi-modal LLMs for data in text, image, and tabular formats
+              - Uncertainty quantification and model calibration for text-image multi-modal and large language models
+            
+            - Data efficient Deep Learning and AI:
+              - Development of Representation & Unsupervised Learning algorithms for reducing the labeling need for 
+                Deep Learning models 
+              - Development of data efficient alignment methods for LLMs
 
-          - Computer Vision:
-            - Active Learning and Unsupervised accuracy estimation for classification, semantic segmentation
-            - Probabilistic Multi-View 3D semantic segmentation segmwntation Deep Learning Active Learning framework
+            - Computer Vision:
+              - Active Learning and Unsupervised accuracy estimation for classification, detection & semantic segmentation
+              - Probabilistic Multi-View 3D semantic segmentation Deep Learning Active Learning framework
 
-          - Predictive data analytics:
-            - Developed sale forecasting models for Samsung business units 
-            - Optimized marketing strategies for sale campaigns 
+            - Predictive data analytics:
+              - Developed sale forecasting models for Samsung business units 
+              - Optimized marketing strategies for sale campaigns 
+
 
       - layout: left
         title: Applied Materials
@@ -95,15 +99,33 @@ content:
         caption: Nov 2017 - Present
       
         quote: >
-          Job description : EDevelopment, deployment & maintenance of AI solutions to increase the performance and 
-          productivity of engineering, services and supply chain tasks
-           & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages in business. 
+          Data Science Group, Santa Clara, CA, USA
           
-        description: | # this will include new lines to allow paragraphs
-          - Development, deployment & maintenance of AI solutions to increase the performance 
-            and productivity of engineering, services and supply chain tasks
-          
+        description: | # this will include new lines to allow paragraph
+          - Development & deployment of AI solutions to increase the performance/ 
+              productivity of engineering, services & supply chain teams
           - Leading AI app productization in collaboration with Software, UI, DevOp teams & internal or external customers
+
+
+
+      - layout: left
+        title: GE Global Research
+        link: www.appliedmaterials.com
+        sub_title: Research Engineer
+        caption: Nov 2017 - Present
+      
+        quote: >
+          Probabilistic Lab, San Ramon, CA, USA
+           
+        description: | # this will include new lines to allow paragraph
+          - Development of Probabilistic Methods & Machine Learning models for calibration & validation, uncertainty quantification, 
+              optimization and meta-modeling/surrogates modeling
+          - Development of Deep Learning & Machine Learning models to optimize engineering design & manufacturing process
+          - Development of Computer Vision defect detection software
+
+
+
+      
 
 
             
