@@ -69,8 +69,7 @@ content:
           AI Science Lab, San Jose, CA, USA 
           
         description: | # this will include new lines to allow paragraphs
-          - Responsibilities : Establishing technical goals,  
-              Leading task force & collaborations across Samsung’s or external entities for Technology Development
+          - Responsibilities : Establishing technical goals, Leading task force & collaborations across Samsung’s or external entities for Technology Development
               & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages. 
           
           - Projects:
@@ -110,7 +109,7 @@ content:
 
       - layout: left
         title: GE Global Research
-        link: www.appliedmaterials.com
+        link: www.geaerospace.com
         sub_title: Research Engineer
         caption: Nov 2017 - Present
       
