@@ -100,11 +100,11 @@ content:
           productivity of engineering, services and supply chain tasks
            & Technology Transfer, Developing products, solutions & services to secure Samsung's competitive advantages in business. 
           
-        # description: | # this will include new lines to allow paragraphs
-        #   - Development, deployment & maintenance of AI solutions to increase the performance 
-        #     and productivity of engineering, services and supply chain tasks
+        description: | # this will include new lines to allow paragraphs
+          - Development, deployment & maintenance of AI solutions to increase the performance 
+            and productivity of engineering, services and supply chain tasks
           
-        #   - Leading AI app productization in collaboration with Software, UI, DevOp teams & internal or external customers
+          - Leading AI app productization in collaboration with Software, UI, DevOp teams & internal or external customers
 
 
             
