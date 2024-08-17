@@ -194,7 +194,7 @@ content:
   - title: Awards & Recognitions
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Samsung SDS Circle of Excellence Award granted by CEO of Samsung SDS
+      - Samsung SDS Circle of Excellence Award granted by CEO of Samsung SDSA
         for Outstanding performance, Creativity, Organizational abilities and Team Work, (2022)
       - Best Presentation Award at Future of Information and Communication Conference (FICC), 
         for the paper titled "Medical Image Labeling via Active Learning is 90% Effective", (2022)
