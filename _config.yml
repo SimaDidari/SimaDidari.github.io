@@ -222,7 +222,7 @@ content:
           We defined a novel Uncertainty-aware Reward Model (URM) for the preference training of LLMs 
           based on Bayesian approximation to quantify the uncertainty of paired responses.
           We experimentally demonstrated that using URM in LLMs training boosts their instruction
-          following capability and their policy optimization objectives, 
+          following capability and their policy optimization objectives. 
           The URM based finetuning surpasses existing methods by a large margin on benchmarks such as
             Vicuna and MT-bench.
 
