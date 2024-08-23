@@ -164,7 +164,7 @@ content:
       - My full publication list can be found at [Scholar profile](https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en).
       Here is the list of my recent publictions:
         - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
-        - Bayesian active learning for semantic segmentation, arXiv:2408.01694, (2024)
+        - Bayesian active learning for semantic segmentation, [arXiv:2408.01694](https://www.arxiv.org/abs/2408.01694), (2024)
         - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
           Accepted at AAAI, (2023)
         - Highly efficient representation and active learning framework for imbalanced data and
