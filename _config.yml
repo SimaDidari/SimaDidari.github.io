@@ -163,18 +163,18 @@ content:
     content: | # this will include new lines to allow paragraphs
       - My full publication list can be found at [Scholar profile](https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en).
       Here is the list of my recent publictions:
-        - Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML, (2024)
-        - Bayesian active learning for semantic segmentation, [arXiv:2408.01694](https://www.arxiv.org/abs/2408.01694), (2024)
-        - Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278,
+        - Improving instruction following in language models through proxy-based uncertainty estimation, [arXiv](https://arxiv.org/abs/2405.06424) Accepted at ICML, (2024)
+        - Bayesian active learning for semantic segmentation, [arXiv](https://www.arxiv.org/abs/2408.01694), (2024)
+        - Self-Supervised contrastive representation learning for 3D mesh segmentation, [arXiv](https://arxiv.org/abs/2208.04278v2),
           Accepted at AAAI, (2023)
         - Highly efficient representation and active learning framework for imbalanced data and
-          its application to COVID-19 X-Ray classification, NeurIPS Data-Centric AI workshop, (2021)
-        - Active learning performance in labeling radiology images is 90% Effective, Frontiers in Radiology,
+          its application to COVID-19 X-Ray classification, [arXiv](https://arxiv.org/abs/2103.05109v4) NeurIPS Data-Centric AI workshop, (2021)
+        - Active learning performance in labeling radiology images is 90% Effective, [Frontiers in Radiology](https://www.frontiersin.org/journals/radiology/articles/10.3389/fradi.2021.748968/full),
           (2021)
-        - PatchNet: Unsupervised object discovery based on patch embedding, arXiv:2016.08599, (2021)
+        - PatchNet: Unsupervised object discovery based on patch embedding, [arXiv](https://arxiv.org/abs/2106.08599), (2021)
         - Modeling and optimizing the impact of process and equipment parameters in sputtering
           deposition systems using a Gaussian process machine learning framework, 
-          IEEE Transactions on Semiconductor Manufacturing, (2021)
+          [IEEE Transactions on Semiconductor Manufacturing](https://ieeexplore.ieee.org/document/9634119), (2021)
 
   
   - title: Selected Patents
