@@ -163,7 +163,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       - My full publication list can be found at [Scholar profile](https://scholar.google.com/citations?user=e7JYe3cAAAAJ&hl=en).
       Here is the list of my recent publictions:
-        - Improving instruction following in language models through proxy-based uncertainty estimation, [arXiv](https://arxiv.org/abs/2405.06424) Accepted at ICML, (2024)
+        - Improving instruction following in language models through proxy-based uncertainty estimation, [arXiv](https://arxiv.org/abs/2405.06424), Accepted at ICML, (2024)
         - Bayesian active learning for semantic segmentation, [arXiv](https://www.arxiv.org/abs/2408.01694), (2024)
         - Self-Supervised contrastive representation learning for 3D mesh segmentation, [arXiv](https://arxiv.org/abs/2208.04278v2),
           Accepted at AAAI, (2023)
@@ -180,15 +180,15 @@ content:
   - title: Selected Patents
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Bayesian semantic segmentation active learning with Beta approximation, 20230368507
-      - Object discovery, 20220383105
-      - Unsupervised representation learning and active learning to improve data efficiency, 20220138935
-      - Long short-term memory anomaly detection for multi-sensor equipment monitoring, 20200104639
-      - Correcting component failures in ion implant semiconductor manufacturing tool, 11348813
-      - Chamber matching with neural networks in semiconductor equipment tools, 11133204
-      - Magnetic mixer, 11097236
-      - Magnetic drive for bioreactor, 10335750
-      - System and method for characterizing conditions in a fluid mixing devices, 10682618
+      - Bayesian semantic segmentation active learning with Beta approximation, [20230368507](https://patents.justia.com/patent/20230368507)
+      - Object discovery, [20220383105](https://patents.justia.com/patent/20220383105)
+      - Unsupervised representation learning and active learning to improve data efficiency, [20220138935](https://patents.justia.com/patent/20220138935)
+      - Long short-term memory anomaly detection for multi-sensor equipment monitoring, [20200104639](https://patents.justia.com/patent/20200104639)
+      - Correcting component failures in ion implant semiconductor manufacturing tool, [11348813](https://patents.justia.com/patent/11348813)
+      - Chamber matching with neural networks in semiconductor equipment tools, [11133204](https://patents.justia.com/patent/11133204)
+      - Magnetic mixer, [11097236](https://patents.justia.com/patent/11097236)
+      - Magnetic drive for bioreactor, [10335750](https://patents.justia.com/patent/10335750)
+      - System and method for characterizing conditions in a fluid mixing devices, [10682618](https://patents.justia.com/patent/10682618)
 
 
   - title: Awards & Recognitions
