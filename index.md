@@ -66,7 +66,7 @@ title: Sima Didari - AI Research
                     <li>Multimodal LLMs for text, image, and tabular data integration</li>
                 </ul>
                 
-                <a href="genai.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="genai" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
         
@@ -83,7 +83,7 @@ title: Sima Didari - AI Research
                     <li>Multi-view 3D semantic segmentation systems</li>
                 </ul>
                 
-                <a href="computer-vision.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="computer-vision" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
         
@@ -100,7 +100,7 @@ title: Sima Didari - AI Research
                     <li>Predictive analytics for industrial applications</li>
                 </ul>
                 
-                <a href="optimization.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="optimization" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
     </div>
