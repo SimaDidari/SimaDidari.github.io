@@ -78,11 +78,20 @@
             color: #333;
             text-decoration: none;
             font-size: 0.95em;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
         
         .contact-item:hover {
             color: #666;
             text-decoration: underline;
+        }
+        
+        .contact-icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
         }
         
         .research-tabs {
@@ -291,41 +300,50 @@
     
     <script>
         function showTab(tabId) {
-            // Remove active class from all tab contents
-            var contents = document.querySelectorAll('.tab-content');
-            for (var i = 0; i < contents.length; i++) {
-                contents[i].classList.remove('active');
+            // Hide all tab contents
+            var allTabs = document.getElementsByClassName('tab-content');
+            for (var i = 0; i < allTabs.length; i++) {
+                allTabs[i].classList.remove('active');
             }
             
             // Remove active class from all buttons
-            var buttons = document.querySelectorAll('.tab-button');
-            for (var i = 0; i < buttons.length; i++) {
-                buttons[i].classList.remove('active');
+            var allButtons = document.getElementsByClassName('tab-button');
+            for (var i = 0; i < allButtons.length; i++) {
+                allButtons[i].classList.remove('active');
             }
             
-            // Show selected tab content
-            var selectedContent = document.getElementById(tabId);
-            if (selectedContent) {
-                selectedContent.classList.add('active');
+            // Show the selected tab
+            var selectedTab = document.getElementById(tabId);
+            if (selectedTab) {
+                selectedTab.classList.add('active');
             }
             
-            // Add active class to clicked button
+            // Add active class to the clicked button
             var clickedButton = event.target || event.srcElement;
             if (clickedButton) {
                 clickedButton.classList.add('active');
             }
+            
+            return false;
         }
         
-        // Initialize page
-        window.onload = function() {
-            var firstTab = document.querySelector('.tab-button');
-            var firstContent = document.querySelector('.tab-content');
+        // Initialize when page loads
+        function initializePage() {
+            var firstButton = document.getElementsByClassName('tab-button')[0];
+            var firstTab = document.getElementsByClassName('tab-content')[0];
             
-            if (firstTab && firstContent) {
+            if (firstButton && firstTab) {
+                firstButton.classList.add('active');
                 firstTab.classList.add('active');
-                firstContent.classList.add('active');
             }
-        };
+        }
+        
+        // Run initialization
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializePage);
+        } else {
+            initializePage();
+        }
     </script>
 </body>
 </html>
