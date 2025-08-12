@@ -5,7 +5,7 @@ title: Sima Didari - AI Research
 
 <div class="header">
     <div class="profile-section">
-        <img src="assets/images/profile.jpg" alt="Sima Didari" class="profile-image" onerror="this.style.display='none'">
+        <img src="profile.jpg" alt="Sima Didari" class="profile-image" onerror="this.style.display='none'">
         <div class="profile-info">
             <h1>Sima Didari</h1>
             <div class="profile-summary">
@@ -22,6 +22,84 @@ title: Sima Didari - AI Research
         <a href="https://linkedin.com/in/simadidari" class="contact-item" target="_blank">LinkedIn</a>
         <span class="contact-item">Samsung SDS AI Science Lab</span>
     </div>
+</div>
+
+<div class="content-section">
+    <h2>Research Interests</h2>
+    
+    <p style="margin-bottom: 30px;">My research is driven by the principle that AI should be both theoretically grounded and practically impactful. I focus on developing methods that not only advance the state-of-the-art but also address real-world challenges in industry and society.</p>
+    
+    <div class="research-tabs">
+        <div class="tabs-header">
+            <button class="tab-button" onclick="showTab('genai')">Generative AI & LLMs</button>
+            <button class="tab-button" onclick="showTab('computer-vision')">Computer Vision</button>
+            <button class="tab-button" onclick="showTab('optimization')">Optimization & ML</button>
+        </div>
+        
+        <div id="genai" class="tab-content">
+            <div style="margin: 40px 0;">
+                <h3>Generative AI & Large Language Models</h3>
+                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My work in generative AI focuses on developing more reliable and efficient language models through novel uncertainty quantification methods and data-efficient alignment techniques. I am particularly interested in creating multimodal systems that can seamlessly integrate text, image, and structured data to solve complex real-world problems.</p>
+                
+                <h4>Current Research Focus</h4>
+                <ul style="margin-bottom: 20px;">
+                    <li>Data-efficient alignment techniques and fine-tuning for large language models</li>
+                    <li>Proxy-based uncertainty estimation for improving instruction following</li>
+                    <li>Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks</li>
+                    <li>Text-to-SQL generation and automated coding assistance</li>
+                    <li>Graph learning approaches for RL alignment and structured reasoning</li>
+                    <li>Multimodal LLMs for text, image, and tabular data integration</li>
+                </ul>
+                
+                <a href="genai.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+            </div>
+        </div>
+        
+        <div id="computer-vision" class="tab-content">
+            <div style="margin: 40px 0;">
+                <h3>Computer Vision & Deep Learning</h3>
+                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My computer vision research centers on developing intelligent systems that can learn effectively with minimal supervision while providing reliable uncertainty estimates. I focus on active learning frameworks and self-supervised methods that dramatically reduce annotation costs while maintaining high performance, particularly for medical and industrial applications.</p>
+                
+                <h4>Research Contributions</h4>
+                <ul style="margin-bottom: 20px;">
+                    <li>Bayesian active learning frameworks for semantic segmentation</li>
+                    <li>Self-supervised representation learning for 3D mesh analysis</li>
+                    <li>Uncertainty-aware computer vision for medical imaging</li>
+                    <li>Multi-view 3D semantic segmentation systems</li>
+                </ul>
+                
+                <a href="computer-vision.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+            </div>
+        </div>
+        
+        <div id="optimization" class="tab-content">
+            <div style="margin: 40px 0;">
+                <h3>Optimization & Machine Learning</h3>
+                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My optimization research bridges mathematical optimization theory with practical machine learning applications, focusing on Bayesian methods that provide principled uncertainty quantification. I develop frameworks that enable robust, efficient decision-making in complex engineering and business environments where understanding uncertainty is critical for safe and effective AI deployment.</p>
+                
+                <h4>Key Methodologies</h4>
+                <ul style="margin-bottom: 20px;">
+                    <li>Gaussian Process frameworks for process optimization</li>
+                    <li>Bayesian optimization for hyperparameter tuning and design</li>
+                    <li>Uncertainty quantification in complex engineering systems</li>
+                    <li>Predictive analytics for industrial applications</li>
+                </ul>
+                
+                <a href="optimization.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+            </div>
+        </div>
+    </div>
+    
+    <h4 style="margin-top: 40px;">Core Research Themes:</h4>
+    <ul>
+        <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
+        <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
+        <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
+        <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
+    </ul>
+    
+    <h4>Current Collaborations:</h4>
+    <p style="margin-top: 15px;">Active collaborations with academic institutions and industry partners, including work with MIT on advanced manufacturing optimization and cross-functional teams at Samsung for next-generation AI products.</p>
 </div>
 
 <div class="content-section">
@@ -138,33 +216,79 @@ title: Sima Didari - AI Research
 </div>
 
 <div class="content-section">
+    <h2>Education</h2>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">May 2014</div>
+        <div class="timeline-title">Ph.D. & M.S. in Mechanical Engineering</div>
+        <div class="timeline-company">Georgia Institute of Technology | Atlanta, GA</div>
+    </div>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">May 2005</div>
+        <div class="timeline-title">B.S. in Mechanical Engineering</div>
+        <div class="timeline-company">University of Tehran | Tehran, Iran</div>
+    </div>
+</div>
+
+<div class="content-section">
     <h2>Professional Background</h2>
     
     <div class="timeline-item">
-        <div class="timeline-date">2019 – Present</div>
+        <div class="timeline-date">Feb 2019 – Present</div>
         <div class="timeline-title">Senior Staff AI Scientist</div>
-        <div class="timeline-company">Samsung SDS AI Science Lab | San Jose, CA</div>
-        <p>Leading research initiatives in generative AI, computer vision, and optimization. Responsible for developing breakthrough technologies that secure Samsung's competitive advantages in AI-driven solutions.</p>
+        <div class="timeline-company">AI Science Lab, Samsung SDS | San Jose, CA</div>
+        <p><em>Promoted to Senior Staff AI Scientist in 2024</em></p>
+        
+        <h4>Key Responsibilities:</h4>
+        <ul>
+            <li>Develop and deploy products, solutions, and service-differentiating technologies to secure Samsung's competitive advantages</li>
+            <li>Establish technical goals, lead task forces, and collaborate across Samsung and external entities for technology development and transfer</li>
+        </ul>
+        
+        <h4>Major Projects:</h4>
+        <ul>
+            <li><strong>Generative AI & Large Language Models:</strong> Developed Text-to-SQL models, data-efficient LLM alignment techniques, and tailored multimodal LLMs for text, image, and tabular data formats</li>
+            <li><strong>Data-Efficient Deep Learning:</strong> Created representation and unsupervised learning algorithms to reduce labeling requirements for deep learning models</li>
+            <li><strong>Computer Vision:</strong> Developed Active Learning and Unsupervised Accuracy Estimation frameworks for classification, object detection, and semantic segmentation; created probabilistic Multi-View 3D semantic segmentation Active Learning framework</li>
+            <li><strong>Predictive Analytics:</strong> Built sales forecasting models for Samsung business units and optimized marketing strategies for sales campaigns</li>
+        </ul>
     </div>
     
     <div class="timeline-item">
-        <div class="timeline-date">2017 – 2019</div>
+        <div class="timeline-date">Nov 2017 – Feb 2019</div>
         <div class="timeline-title">Senior Data Scientist</div>
-        <div class="timeline-company">Applied Materials | Santa Clara, CA</div>
-        <p>Pioneered AI applications in semiconductor manufacturing, including real-time anomaly detection and predictive maintenance systems.</p>
+        <div class="timeline-company">Data Science Group, Applied Materials | Santa Clara, CA</div>
+        <ul>
+            <li>Developed and deployed AI solutions to enhance engineering, services, and supply chain performance</li>
+            <li>Led AI application productization in collaboration with Software, UI, DevOps teams, and internal/external customers</li>
+            <li>Created end-of-life prediction Deep Learning and Machine Learning models for SmartFactory service solutions</li>
+            <li>Deployed real-time Deep Learning anomaly detection web application for semiconductor smart manufacturing platform</li>
+            <li>Developed Gaussian Process Machine Learning framework for modeling process and equipment parameter impacts on sputtering systems (collaboration with MIT)</li>
+        </ul>
     </div>
     
     <div class="timeline-item">
-        <div class="timeline-date">2014 – 2017</div>
+        <div class="timeline-date">Aug 2014 – Nov 2017</div>
         <div class="timeline-title">Research Engineer</div>
-        <div class="timeline-company">GE Global Research | San Ramon, CA & Niskayuna, NY</div>
-        <p>Developed probabilistic machine learning methods for industrial applications, contributing to GE's core AI infrastructure and uncertainty quantification capabilities.</p>
+        <div class="timeline-company">Probabilistic Lab, GE Global Research | San Ramon, CA & Niskayuna, NY</div>
+        <ul>
+            <li>Developed probabilistic methods and machine learning models for calibration, validation, uncertainty quantification, optimization, and meta-modeling</li>
+            <li>Created defect detection software for manufacturing processes</li>
+            <li>Contributed to GE's internal Gaussian Process Python package and Uncertainty Quantification application</li>
+            <li>Developed Bayesian Machine Learning solutions for life cycle prediction, design space optimization, and supply chain management</li>
+            <li>Built real-time defect recognition and image processing software for 3D CT composite data</li>
+        </ul>
     </div>
     
     <div class="timeline-item">
-        <div class="timeline-date">Ph.D. 2014</div>
-        <div class="timeline-title">Mechanical Engineering</div>
+        <div class="timeline-date">Aug 2009 – May 2014</div>
+        <div class="timeline-title">Research Assistant</div>
         <div class="timeline-company">Georgia Institute of Technology | Atlanta, GA</div>
-        <p>Doctoral research in computational optimization and materials science, focusing on topological optimization of 3D composite structures.</p>
+        <ul>
+            <li>Conducted research in Computer-Aided Engineering (CAE), Topological Optimization, and Image Processing</li>
+            <li>Developed periodic surface parametric models to represent topology of porous microstructures</li>
+            <li>Performed topological characterization and optimization of 3D composite porous microstructures</li>
+        </ul>
     </div>
 </div>
