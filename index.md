@@ -5,7 +5,8 @@ title: Sima Didari - AI Research
 
 <div class="header">
     <div class="profile-section">
-        <img src="images/profile.jpg" alt="Sima Didari" class="profile-image">        <div class="profile-info">
+        <img src="images/profile.jpg" alt="Sima Didari" class="profile-image">        
+        <div class="profile-info">
             <h1>Sima Didari</h1>
             <div class="profile-summary">
                 <p>Welcome to my research portfolio. I am a Senior Staff AI Scientist with 10+ years of experience in Deep Learning, Computer Vision, Bayesian Machine Learning, Generative AI, and Large Language Models. My work focuses on developing foundational AI technologies and translating cutting-edge research into real-world applications that create significant impact across industries.</p>
@@ -66,7 +67,7 @@ title: Sima Didari - AI Research
                     <li>Multimodal LLMs for text, image, and tabular data integration</li>
                 </ul>
                 
-                <a href="genai" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="genai.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
         
@@ -83,7 +84,7 @@ title: Sima Didari - AI Research
                     <li>Multi-view 3D semantic segmentation systems</li>
                 </ul>
                 
-                <a href="computer-vision" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="computer-vision.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
         
@@ -100,7 +101,7 @@ title: Sima Didari - AI Research
                     <li>Predictive analytics for industrial applications</li>
                 </ul>
                 
-                <a href="optimization" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="optimization.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
     </div>
