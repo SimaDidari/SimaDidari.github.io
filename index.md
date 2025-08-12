@@ -65,9 +65,13 @@ title: Sima Didari - AI Research
                     <li>Text-to-SQL generation and automated coding assistance</li>
                     <li>Graph learning approaches for RL alignment and structured reasoning</li>
                     <li>Multimodal LLMs for text, image, and tabular data integration</li>
+                    <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
+                    <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
+                    <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
+                    <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
                 </ul>
                 
-                <a href="genai.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="genai.html" class="explore-button">Explore Research</a>
             </div>
         </div>
         
@@ -82,9 +86,13 @@ title: Sima Didari - AI Research
                     <li>Self-supervised representation learning for 3D mesh analysis</li>
                     <li>Uncertainty-aware computer vision for medical imaging</li>
                     <li>Multi-view 3D semantic segmentation systems</li>
+                    <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
+                    <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
+                    <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
+                    <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
                 </ul>
                 
-                <a href="computer-vision.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="computer-vision.html" class="explore-button">Explore Research</a>
             </div>
         </div>
         
@@ -99,23 +107,16 @@ title: Sima Didari - AI Research
                     <li>Bayesian optimization for hyperparameter tuning and design</li>
                     <li>Uncertainty quantification in complex engineering systems</li>
                     <li>Predictive analytics for industrial applications</li>
+                    <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
+                    <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
+                    <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
+                    <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
                 </ul>
                 
-                <a href="optimization.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="optimization.html" class="explore-button">Explore Research</a>
             </div>
         </div>
     </div>
-    
-    <h4 style="margin-top: 40px;">Core Research Themes:</h4>
-    <ul>
-        <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
-        <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
-        <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
-        <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
-    </ul>
-    
-    <h4>Current Collaborations:</h4>
-    <p style="margin-top: 15px;">Active collaborations with academic institutions and industry partners, including work with MIT on advanced manufacturing optimization and cross-functional teams at Samsung for next-generation AI products.</p>
 </div>
 
 <div class="content-section">
