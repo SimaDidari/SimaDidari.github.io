@@ -1,116 +1,160 @@
 ---
 layout: default
+title: Sima Didari - AI Scientist Portfolio
 ---
 
-# About Me
+<div class="header">
+    <div class="profile-section">
+        <img src="assets/images/profile.jpg" alt="Sima Didari" class="profile-image" onerror="this.style.display='none'">
+        <div class="profile-info">
+            <h1>Sima Didari</h1>
+            <p>Senior Staff AI Scientist</p>
+            <p>10+ years experience in Deep Learning, Computer Vision, Bayesian Machine Learning, Generative AI, and Large Language Models</p>
+        </div>
+    </div>
+    
+    <div class="contact-info">
+        <a href="mailto:Sima.Didari@gmail.com" class="contact-item">📧 Email</a>
+        <a href="tel:669-263-1509" class="contact-item">📱 Phone</a>
+        <a href="https://linkedin.com/in/simadidari" class="contact-item" target="_blank">💼 LinkedIn</a>
+        <span class="contact-item">📍 San Jose, CA</span>
+    </div>
+</div>
 
-I'm Sima Didari, a Senior Staff AI Scientist with 10+ years of experience in Deep Learning, Computer Vision, Bayesian Machine Learning, Generative AI, and Large Language Models. I focus on product development from research to deployment, with experience leading cross-functional teams to deliver AI solutions that create business value. I'm a contributor to the research community through publications in peer-reviewed venues and holder of multiple patents in AI and machine learning technologies.
+<div class="research-tabs">
+    <h2 style="text-align: center; margin-bottom: 30px; color: #667eea; font-size: 2.2em;">Research Areas</h2>
+    
+    <div class="tabs-header">
+        <button class="tab-button" onclick="showTab('genai')">🤖 Generative AI</button>
+        <button class="tab-button" onclick="showTab('computer-vision')">🔍 Computer Vision</button>
+        <button class="tab-button" onclick="showTab('optimization')">⚡ Optimization</button>
+    </div>
+    
+    <div id="genai" class="tab-content">
+        <div style="text-align: center; margin: 40px 0;">
+            <h3 style="color: #667eea; font-size: 1.8em; margin-bottom: 20px;">🤖 Generative AI & Large Language Models</h3>
+            <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">Cutting-edge research in language models, uncertainty estimation, and AI alignment</p>
+            <a href="genai.html" class="contact-item" style="font-size: 1.1em; padding: 15px 30px;">Explore GenAI Projects →</a>
+        </div>
+    </div>
+    
+    <div id="computer-vision" class="tab-content">
+        <div style="text-align: center; margin: 40px 0;">
+            <h3 style="color: #667eea; font-size: 1.8em; margin-bottom: 20px;">🔍 Computer Vision & Deep Learning</h3>
+            <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">Advanced image processing, active learning, and medical AI applications</p>
+            <a href="computer-vision.html" class="contact-item" style="font-size: 1.1em; padding: 15px 30px;">Explore Computer Vision →</a>
+        </div>
+    </div>
+    
+    <div id="optimization" class="tab-content">
+        <div style="text-align: center; margin: 40px 0;">
+            <h3 style="color: #667eea; font-size: 1.8em; margin-bottom: 20px;">⚡ Optimization & Machine Learning</h3>
+            <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">Bayesian optimization, forecasting models, and mathematical optimization solutions</p>
+            <a href="optimization.html" class="contact-item" style="font-size: 1.1em; padding: 15px 30px;">Explore Optimization →</a>
+        </div>
+    </div>
+</div>
 
-**Contact Information:**
-- Email: Sima.Didari@gmail.com
-- Phone: 669-263-1509
-- Location: San Jose, CA
-- LinkedIn: [linkedin.com/in/simadidari](https://linkedin.com/in/simadidari)
+<div class="content-section">
+    <h2 style="color: #667eea; font-size: 2em; margin-bottom: 25px;">Professional Experience</h2>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">Feb 2019 – Present</div>
+        <div class="timeline-title">Senior Staff AI Scientist</div>
+        <div class="timeline-company">Samsung SDS, AI Science Lab | San Jose, CA</div>
+        <p><em>Promoted to Senior Staff in 2024</em></p>
+        <ul>
+            <li>Develop and deploy products, solutions, and service-differentiating technologies to secure Samsung's competitive advantages</li>
+            <li>Establish technical goals, lead task forces, and collaborate across Samsung and external entities for technology development and transfer</li>
+            <li>Lead cross-functional teams to deliver AI solutions that create measurable business value</li>
+        </ul>
+    </div>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">Nov 2017 – Feb 2019</div>
+        <div class="timeline-title">Senior Data Scientist</div>
+        <div class="timeline-company">Applied Materials, Data Science Group | Santa Clara, CA</div>
+        <ul>
+            <li>Developed and deployed AI solutions to enhance engineering, services, and supply chain performance</li>
+            <li>Led AI application productization in collaboration with Software, UI, DevOps teams, and customers</li>
+            <li>Created end-of-life prediction Deep Learning and Machine Learning models for SmartFactory service solutions</li>
+        </ul>
+    </div>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">Aug 2014 – Nov 2017</div>
+        <div class="timeline-title">Research Engineer</div>
+        <div class="timeline-company">GE Global Research, Probabilistic Lab | San Ramon, CA & Niskayuna, NY</div>
+        <ul>
+            <li>Developed probabilistic methods and machine learning models for calibration, validation, and uncertainty quantification</li>
+            <li>Created defect detection software for manufacturing processes</li>
+            <li>Contributed to GE's internal Gaussian Process Python package and Uncertainty Quantification application</li>
+        </ul>
+    </div>
+</div>
 
----
+<div class="content-section">
+    <h2 style="color: #667eea; font-size: 2em; margin-bottom: 25px;">Education</h2>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">May 2014</div>
+        <div class="timeline-title">Ph.D. & M.S. in Mechanical Engineering</div>
+        <div class="timeline-company">Georgia Institute of Technology | Atlanta, GA</div>
+        <p>Research focus: Computer-Aided Engineering (CAE), Topological Optimization, and Image Processing</p>
+    </div>
+    
+    <div class="timeline-item">
+        <div class="timeline-date">May 2005</div>
+        <div class="timeline-title">B.S. in Mechanical Engineering</div>
+        <div class="timeline-company">University of Tehran | Tehran, Iran</div>
+    </div>
+</div>
 
-## Project Categories
+<div class="content-section">
+    <h2 style="color: #667eea; font-size: 2em; margin-bottom: 25px;">Selected Patents</h2>
+    
+    <div class="patent-item">
+        <strong>Bayesian semantic segmentation active learning with Beta approximation</strong> (20230368507)
+    </div>
+    <div class="patent-item">
+        <strong>Object discovery</strong> (20220383105)
+    </div>
+    <div class="patent-item">
+        <strong>Unsupervised representation learning & active learning to improve data efficiency</strong> (20220138935)
+    </div>
+    <div class="patent-item">
+        <strong>Long short-term memory (LSTM) anomaly detection for multi-sensor equipment monitoring</strong> (20200104639)
+    </div>
+    <div class="patent-item">
+        <strong>Chamber matching with neural networks in semiconductor equipment tool</strong> (20200243359)
+    </div>
+</div>
 
-### 🔍 [Computer Vision](computer-vision.md)
-Advanced image processing, object detection, and visual recognition systems.
-
-### ⚡ [Optimization](optimization.md)
-Mathematical modeling, algorithm development, and performance optimization solutions.
-
-### 🤖 [GenAI Projects](genai.md)
-Generative AI applications, large language models, and AI-powered tools.
-
----
-
-# Experience
-
-## Samsung SDS, AI Science Lab
-**Senior Staff AI Scientist** (Promoted to Senior Staff in 2024)  
-Feb 2019 – Present  
-San Jose, CA
-
-**Key Responsibilities:**
-- Develop and deploy products, solutions, and service-differentiating technologies to secure Samsung's competitive advantages
-- Establish technical goals, lead task forces, and collaborate across Samsung and external entities for technology development and transfer
-
-**Major Projects:**
-- **Generative AI & Large Language Models:** Developed Text-to-SQL models, data-efficient LLM alignment techniques, and tailored multimodal LLMs for text, image, and tabular data formats
-- **Data-Efficient Deep Learning:** Created representation and unsupervised learning algorithms to reduce labeling requirements for deep learning models
-- **Computer Vision:** Developed Active Learning and Unsupervised Accuracy Estimation frameworks for classification, object detection, and semantic segmentation; created probabilistic Multi-View 3D semantic segmentation Active Learning framework
-- **Predictive Analytics:** Built sales forecasting models for Samsung business units and optimized marketing strategies for sales campaigns
-
-## Applied Materials, Data Science Group
-**Senior Data Scientist**  
-Nov 2017 – Feb 2019  
-Santa Clara, CA
-
-- Developed and deployed AI solutions to enhance engineering, services, and supply chain performance
-- Led AI application productization in collaboration with Software, UI, DevOps teams, and internal/external customers
-- Created end-of-life prediction Deep Learning and Machine Learning models for SmartFactory service solutions
-- Deployed real-time Deep Learning anomaly detection web application for semiconductor smart manufacturing platform
-- Developed Gaussian Process Machine Learning framework for modeling process and equipment parameter impacts on sputtering systems (collaboration with MIT)
-
-## GE Global Research, Probabilistic Lab
-**Research Engineer**  
-Aug 2014 – Nov 2017  
-San Ramon, CA & Niskayuna, NY
-
-- Developed probabilistic methods and machine learning models for calibration, validation, uncertainty quantification, optimization, and meta-modeling
-- Created defect detection software for manufacturing processes
-- Contributed to GE's internal Gaussian Process Python package and Uncertainty Quantification application
-- Developed Bayesian Machine Learning solutions for life cycle prediction, design space optimization, and supply chain management
-- Built real-time defect recognition and image processing software for 3D CT composite data
-
-## Georgia Institute of Technology
-**Research Assistant**  
-Aug 2009 – May 2014  
-Atlanta, GA
-
-- Conducted research in Computer-Aided Engineering (CAE), Topological Optimization, and Image Processing
-- Developed periodic surface parametric models to represent topology of porous microstructures
-- Performed topological characterization and optimization of 3D composite porous microstructures
-
-# Education
-
-## Georgia Institute of Technology
-**Ph.D. & M.S. in Mechanical Engineering**  
-May 2014  
-Atlanta, GA
-
-## University of Tehran
-**B.S. in Mechanical Engineering**  
-May 2005  
-Tehran, Iran
-
-# Selected Publications
-
-- Improving instruction following in language models through proxy-based uncertainty estimation, Accepted at ICML (2024)
-- Bayesian active learning for semantic segmentation, arXiv:2408.01694 (2024)
-- Self-Supervised contrastive representation learning for 3D mesh segmentation, arXiv:2208.04278 (2022)
-- Highly efficient representation and active learning framework for imbalanced data and its application to COVID-19 X-Ray classification, NeurIPS Data-Centric AI workshop (2021)
-- Active learning performance in labeling radiology images is 90% Effective, Frontiers in Radiology (2021)
-- Modeling and optimizing the impact of process and equipment parameters in sputtering deposition systems using a Gaussian process machine learning framework, IEEE Transactions on Semiconductor Manufacturing (2021)
-
-# Selected Patents
-
-- Bayesian semantic segmentation active learning with Beta approximation (20230368507)
-- Object discovery (20220383105)
-- Unsupervised representation learning & active learning to improve data efficiency (20220138935)
-- System and method for characterizing conditions in a fluid mixing devices (10682618)
-- Long short-term memory (LSTM) anomaly detection for multi-sensor equipment monitoring (20200104639)
-- Chamber matching with neural networks in semiconductor equipment tool (20200243359)
-- Correcting component failure in ion implant semiconductor manufacturing tool (20200251360)
-
-# Awards & Recognition
-
-- Samsung SDS Circle of Excellence Award – Granted by CEO for Outstanding Performance, Creativity, Organizational Abilities, and Team Work (2022)
-- Best Presentation Award – Future of Information and Communication Conference (FICC) for "Medical Image Labeling via Active Learning is 90% Effective" (2022)
-- GE Above & Beyond Award – Development of automated probabilistic testing framework (2017)
-- GE Global Research ATMS Impact Award – Outstanding contribution to Artificial Lift Optimization project (2016)
-- GE Bronze Award – Outstanding contribution to Assisted Defect Recognition Tools for composite microstructures (2015)
-- ASME Outstanding Research Award – International Engineering Congress and Exposition (2012)
+<div class="content-section">
+    <h2 style="color: #667eea; font-size: 2em; margin-bottom: 25px;">Awards & Recognition</h2>
+    
+    <div class="award-item">
+        <strong>Samsung SDS Circle of Excellence Award (2022)</strong><br>
+        Granted by CEO for Outstanding Performance, Creativity, Organizational Abilities, and Team Work
+    </div>
+    
+    <div class="award-item">
+        <strong>Best Presentation Award – FICC (2022)</strong><br>
+        Future of Information and Communication Conference for "Medical Image Labeling via Active Learning is 90% Effective"
+    </div>
+    
+    <div class="award-item">
+        <strong>GE Above & Beyond Award (2017)</strong><br>
+        Development of automated probabilistic testing framework
+    </div>
+    
+    <div class="award-item">
+        <strong>GE Global Research ATMS Impact Award (2016)</strong><br>
+        Outstanding contribution to Artificial Lift Optimization project
+    </div>
+    
+    <div class="award-item">
+        <strong>ASME Outstanding Research Award (2012)</strong><br>
+        International Engineering Congress and Exposition
+    </div>
+</div>
