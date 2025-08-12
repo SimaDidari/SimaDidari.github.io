@@ -24,8 +24,6 @@ title: Sima Didari - AI Research
     </div>
 </div>
 
-
-
 <div class="content-section">
     <h2>Recent Publications</h2>
     <p style="margin-bottom: 20px;">For a complete list of publications and citations, please visit my <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Google Scholar profile</a>.</p>
@@ -61,8 +59,6 @@ title: Sima Didari - AI Research
     </div>
 </div>
 
-
-
 <div class="content-section">
     <h2>Research Interests</h2>
     
@@ -70,9 +66,9 @@ title: Sima Didari - AI Research
     
     <div class="research-tabs">
         <div class="tabs-header">
-            <button class="tab-button" onclick="showTab('genai', this)">Generative AI & LLMs</button>
-            <button class="tab-button" onclick="showTab('computer-vision', this)">Computer Vision</button>
-            <button class="tab-button" onclick="showTab('optimization', this)">Optimization & ML</button>
+            <button class="tab-button" onclick="showTab('genai')">Generative AI & LLMs</button>
+            <button class="tab-button" onclick="showTab('computer-vision')">Computer Vision</button>
+            <button class="tab-button" onclick="showTab('optimization')">Optimization & ML</button>
         </div>
         
         <div id="genai" class="tab-content">
@@ -90,7 +86,7 @@ title: Sima Didari - AI Research
                     <li>Multimodal LLMs for text, image, and tabular data integration</li>
                 </ul>
                 
-                <a href="genai.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="genai.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
         
@@ -107,7 +103,7 @@ title: Sima Didari - AI Research
                     <li>Multi-view 3D semantic segmentation systems</li>
                 </ul>
                 
-                <a href="computer-vision.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="computer-vision.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
         
@@ -124,7 +120,7 @@ title: Sima Didari - AI Research
                     <li>Predictive analytics for industrial applications</li>
                 </ul>
                 
-                <a href="optimization.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+                <a href="optimization.md" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
             </div>
         </div>
     </div>
