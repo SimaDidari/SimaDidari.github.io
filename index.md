@@ -5,8 +5,7 @@ title: Sima Didari - AI Research
 
 <div class="header">
     <div class="profile-section">
-        <img src="profile.jpg" alt="Sima Didari" class="profile-image" onerror="this.style.display='none'">
-        <div class="profile-info">
+        <img src="images/profile.jpg" alt="Sima Didari" class="profile-image">        <div class="profile-info">
             <h1>Sima Didari</h1>
             <div class="profile-summary">
                 <p>Welcome to my research portfolio. I am a Senior Staff AI Scientist with 10+ years of experience in Deep Learning, Computer Vision, Bayesian Machine Learning, Generative AI, and Large Language Models. My work focuses on developing foundational AI technologies and translating cutting-edge research into real-world applications that create significant impact across industries.</p>
