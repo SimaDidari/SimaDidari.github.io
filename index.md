@@ -5,10 +5,13 @@ title: Sima Didari - AI Research
 
 <div class="header">
     <div class="profile-section">
+        <img src="assets/images/profile.jpg" alt="Sima Didari" class="profile-image" onerror="this.style.display='none'">
         <div class="profile-info">
             <h1>Sima Didari</h1>
             <div class="profile-summary">
                 <p>Welcome to my research portfolio. I am a Senior Staff AI Scientist with 10+ years of experience in Deep Learning, Computer Vision, Bayesian Machine Learning, Generative AI, and Large Language Models. My work focuses on developing foundational AI technologies and translating cutting-edge research into real-world applications that create significant impact across industries.</p>
+                
+                <p>For more detailed explanations of my research interests and current projects, please explore the research area tabs below.</p>
             </div>
         </div>
     </div>
@@ -21,70 +24,11 @@ title: Sima Didari - AI Research
     </div>
 </div>
 
-<div class="research-tabs">
-    <h2 style="text-align: center; margin-bottom: 30px;">Research Areas</h2>
-    
-    <div class="tabs-header">
-        <button class="tab-button" onclick="showTab('genai')">Generative AI & LLMs</button>
-        <button class="tab-button" onclick="showTab('computer-vision')">Computer Vision</button>
-        <button class="tab-button" onclick="showTab('optimization')">Optimization & ML</button>
-    </div>
-    
-    <div id="genai" class="tab-content">
-        <div style="margin: 40px 0;">
-            <h3>Generative AI & Large Language Models</h3>
-            <p style="font-size: 1em; color: #666; margin-bottom: 20px;">Advancing the frontiers of language model alignment, uncertainty quantification, and multimodal AI systems</p>
-            
-            <h4>Current Research Focus</h4>
-            <ul style="margin-bottom: 20px;">
-                <li>Data-efficient alignment techniques for large language models</li>
-                <li>Proxy-based uncertainty estimation for improving instruction following</li>
-                <li>Multimodal LLMs for text, image, and tabular data integration</li>
-                <li>Text-to-SQL generation with advanced reasoning capabilities</li>
-            </ul>
-            
-            <a href="genai.html" style="color: #2c3e50; border: 1px solid #2c3e50; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
-        </div>
-    </div>
-    
-    <div id="computer-vision" class="tab-content">
-        <div style="margin: 40px 0;">
-            <h3>Computer Vision & Deep Learning</h3>
-            <p style="font-size: 1em; color: #666; margin-bottom: 20px;">Developing intelligent systems for visual understanding with minimal supervision and maximum efficiency</p>
-            
-            <h4>Research Contributions</h4>
-            <ul style="margin-bottom: 20px;">
-                <li>Bayesian active learning frameworks for semantic segmentation</li>
-                <li>Self-supervised representation learning for 3D mesh analysis</li>
-                <li>Uncertainty-aware computer vision for medical imaging</li>
-                <li>Multi-view 3D semantic segmentation systems</li>
-            </ul>
-            
-            <a href="computer-vision.html" style="color: #2c3e50; border: 1px solid #2c3e50; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
-        </div>
-    </div>
-    
-    <div id="optimization" class="tab-content">
-        <div style="margin: 40px 0;">
-            <h3>Optimization & Machine Learning</h3>
-            <p style="font-size: 1em; color: #666; margin-bottom: 20px;">Bridging mathematical optimization with machine learning for robust, efficient, and scalable AI systems</p>
-            
-            <h4>Key Methodologies</h4>
-            <ul style="margin-bottom: 20px;">
-                <li>Gaussian Process frameworks for process optimization</li>
-                <li>Bayesian optimization for hyperparameter tuning and design</li>
-                <li>Uncertainty quantification in complex engineering systems</li>
-                <li>Predictive analytics for industrial applications</li>
-            </ul>
-            
-            <a href="optimization.html" style="color: #2c3e50; border: 1px solid #2c3e50; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
-        </div>
-    </div>
-</div>
+
 
 <div class="content-section">
-    <h2>Recent Publications & Impact</h2>
-    <p style="margin-bottom: 20px;"><a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Complete publication list on Google Scholar</a></p>
+    <h2>Recent Publications</h2>
+    <p style="margin-bottom: 20px;">For a complete list of publications and citations, please visit my <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Google Scholar profile</a>.</p>
     
     <div class="publication-item">
         <strong>Improving instruction following in language models through proxy-based uncertainty estimation</strong><br>
@@ -117,37 +61,75 @@ title: Sima Didari - AI Research
     </div>
 </div>
 
-<div class="content-section">
-    <h2>Research Impact & Innovation</h2>
-    
-    <div class="patent-item">
-        <strong>Intellectual Property Portfolio</strong><br>
-        <p style="margin-top: 10px; color: #666;">7 issued and pending patents in AI and machine learning, including novel approaches to active learning, uncertainty quantification, and neural network optimization for industrial applications.</p>
-        
-        <h4 style="margin-top: 15px;">Key Patents:</h4>
-        <ul style="font-size: 0.95em;">
-            <li>Bayesian semantic segmentation active learning with Beta approximation (20230368507)</li>
-            <li>Unsupervised representation learning & active learning for data efficiency (20220138935)</li>
-            <li>LSTM anomaly detection for multi-sensor equipment monitoring (20200104639)</li>
-        </ul>
-    </div>
-    
-    <div class="award-item">
-        <strong>Recognition & Awards</strong><br>
-        <ul style="margin-top: 10px; font-size: 0.95em;">
-            <li><strong>Samsung SDS Circle of Excellence Award (2022):</strong> CEO recognition for outstanding research performance and organizational impact</li>
-            <li><strong>Best Presentation Award - FICC (2022):</strong> "Medical Image Labeling via Active Learning is 90% Effective"</li>
-            <li><strong>Multiple GE Research Awards (2015-2017):</strong> Recognition for contributions to probabilistic methods and industrial AI applications</li>
-        </ul>
-    </div>
-</div>
+
 
 <div class="content-section">
-    <h2>Research Philosophy & Approach</h2>
+    <h2>Research Interests</h2>
     
-    <p style="margin-bottom: 20px;">My research is driven by the principle that AI should be both theoretically grounded and practically impactful. I focus on developing methods that not only advance the state-of-the-art but also address real-world challenges in industry and society.</p>
+    <p style="margin-bottom: 30px;">My research is driven by the principle that AI should be both theoretically grounded and practically impactful. I focus on developing methods that not only advance the state-of-the-art but also address real-world challenges in industry and society.</p>
     
-    <h4>Core Research Themes:</h4>
+    <div class="research-tabs">
+        <div class="tabs-header">
+            <button class="tab-button" onclick="showTab('genai', this)">Generative AI & LLMs</button>
+            <button class="tab-button" onclick="showTab('computer-vision', this)">Computer Vision</button>
+            <button class="tab-button" onclick="showTab('optimization', this)">Optimization & ML</button>
+        </div>
+        
+        <div id="genai" class="tab-content">
+            <div style="margin: 40px 0;">
+                <h3>Generative AI & Large Language Models</h3>
+                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My work in generative AI focuses on developing more reliable and efficient language models through novel uncertainty quantification methods and data-efficient alignment techniques. I am particularly interested in creating multimodal systems that can seamlessly integrate text, image, and structured data to solve complex real-world problems.</p>
+                
+                <h4>Current Research Focus</h4>
+                <ul style="margin-bottom: 20px;">
+                    <li>Data-efficient alignment techniques and fine-tuning for large language models</li>
+                    <li>Proxy-based uncertainty estimation for improving instruction following</li>
+                    <li>Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks</li>
+                    <li>Text-to-SQL generation and automated coding assistance</li>
+                    <li>Graph learning approaches for RL alignment and structured reasoning</li>
+                    <li>Multimodal LLMs for text, image, and tabular data integration</li>
+                </ul>
+                
+                <a href="genai.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+            </div>
+        </div>
+        
+        <div id="computer-vision" class="tab-content">
+            <div style="margin: 40px 0;">
+                <h3>Computer Vision & Deep Learning</h3>
+                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My computer vision research centers on developing intelligent systems that can learn effectively with minimal supervision while providing reliable uncertainty estimates. I focus on active learning frameworks and self-supervised methods that dramatically reduce annotation costs while maintaining high performance, particularly for medical and industrial applications.</p>
+                
+                <h4>Research Contributions</h4>
+                <ul style="margin-bottom: 20px;">
+                    <li>Bayesian active learning frameworks for semantic segmentation</li>
+                    <li>Self-supervised representation learning for 3D mesh analysis</li>
+                    <li>Uncertainty-aware computer vision for medical imaging</li>
+                    <li>Multi-view 3D semantic segmentation systems</li>
+                </ul>
+                
+                <a href="computer-vision.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+            </div>
+        </div>
+        
+        <div id="optimization" class="tab-content">
+            <div style="margin: 40px 0;">
+                <h3>Optimization & Machine Learning</h3>
+                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My optimization research bridges mathematical optimization theory with practical machine learning applications, focusing on Bayesian methods that provide principled uncertainty quantification. I develop frameworks that enable robust, efficient decision-making in complex engineering and business environments where understanding uncertainty is critical for safe and effective AI deployment.</p>
+                
+                <h4>Key Methodologies</h4>
+                <ul style="margin-bottom: 20px;">
+                    <li>Gaussian Process frameworks for process optimization</li>
+                    <li>Bayesian optimization for hyperparameter tuning and design</li>
+                    <li>Uncertainty quantification in complex engineering systems</li>
+                    <li>Predictive analytics for industrial applications</li>
+                </ul>
+                
+                <a href="optimization.html" style="color: #333; border: 1px solid #ccc; padding: 10px 20px; text-decoration: none;">Explore Research →</a>
+            </div>
+        </div>
+    </div>
+    
+    <h4 style="margin-top: 40px;">Core Research Themes:</h4>
     <ul>
         <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
         <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
