@@ -48,7 +48,7 @@ title: Sima Didari - AI Research
 <div class="content-section">
     <h2>Research Interests</h2>
     
-    <p style="margin-bottom: 30px;">My research is driven by the principle that AI should be both theoretically grounded and practically impactful. I focus on developing methods that not only advance the state-of-the-art but also address real-world challenges in industry and society.</p>
+    <p style="margin-bottom: 30px;">My research is focus on developing methods that advance the state-of-the-art and address real-world challenges in industry .</p>
     
     <div class="research-tabs">
         <div class="tabs-header">
