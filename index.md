@@ -41,7 +41,7 @@ title: Sima Didari - AI Research
             </svg>
             GitHub
         </a>
-        <span class="contact-item">Samsung SDS AI Science Lab</span>
+
     </div>
 </div>
 
