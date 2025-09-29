@@ -48,7 +48,7 @@ title: Sima Didari - AI Research
 <div class="content-section">
     <h2>Research Interests</h2>
     
-    <p style="margin-bottom: 30px;">My research is focus on developing methods that advance the state-of-the-art and address real-world challenges in industry .</p>
+    <p style="margin-bottom: 30px;">My research is focused on developing methods that advance the state-of-the-art and address real-world challenges in industry. .</p>
     
     <div class="research-tabs">
         <div class="tabs-header">
