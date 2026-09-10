@@ -250,7 +250,7 @@ description: Senior Staff AI Scientist working on robotics and physical AI, gene
         <div class="patent-id"><a href="https://patents.google.com/patent/US11133204B2/en" target="_blank" rel="noopener">US 11,133,204 B2</a> &middot; Granted 2021 &middot; App. US 2020/0243359</div>
     </div>
 
-    <h4>Bioprocess &amp; Fluid Systems &mdash; GE / Global Life Sciences Solutions</h4>
+    <h4>Physical AI &mdash; GE / Global Life Sciences Solutions</h4>
     <div class="patent-item">
         <div class="patent-title">Magnetic mixers</div>
         <div class="patent-id"><a href="https://patents.google.com/patent/US11969701B2/en" target="_blank" rel="noopener">US 11,969,701 B2</a> &middot; Granted 2024</div>
