@@ -1,0 +1,82 @@
+---
+layout: default
+title: Robotics and Physical AI - Sima Didari
+description: Research on data-efficient vision-language-action models, embodied perception, and reliable physical AI for real-world humanoid robots.
+---
+
+<section class="content-section" style="border-top: none; padding-top: 48px;">
+    <div class="section-label">Research Area</div>
+    <h2>Robotics and Physical AI</h2>
+    <p class="section-intro">Data-efficient, reliable vision-language-action (VLA) models for real-world humanoid robots &mdash; covering data collection, model development, and deployment. Physical AI is the wider thread: embodied systems that perceive, reason about, and act in the physical world with the reliability that real hardware demands.</p>
+</section>
+
+<section class="content-section">
+    <h2>Project Highlights</h2>
+
+    <div class="project-item">
+        <div class="project-title">Vision-Language-Action Models for Humanoid Robots</div>
+        <p>Development of data-efficient, reliable VLA models for real-world humanoid robot use cases at Samsung SDS, spanning the full path from data collection through model development to deployment on physical platforms.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Embodied Data Collection &amp; Curation</div>
+        <p>Pipelines for gathering and curating demonstration data for embodied learning, with an emphasis on getting strong policies out of modest data budgets rather than scaling collection indefinitely.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Grounded Multimodal Perception</div>
+        <p>Grounding language instructions and visual observations in 3D scene understanding, drawing on multi-view 3D semantic segmentation and self-supervised representation learning for geometric data.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Reliability &amp; Uncertainty for Embodied Policies</div>
+        <p>Quantifying policy uncertainty so an embodied system can tell a confident action from a guess &mdash; carrying the Bayesian and uncertainty-aware methods developed for vision and language models into control.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Deployment on Real Hardware</div>
+        <p>Closing the gap between benchmark performance and behavior on physical robots, where sensing noise, latency, and long-tail conditions determine whether a policy is actually usable.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Modeling Physical Systems</div>
+        <p>Probabilistic and Gaussian Process modeling of physical processes and equipment, including uncertainty quantification and meta-modeling of asset digital twins &mdash; earlier work that informs how I approach physical-world models today.</p>
+    </div>
+</section>
+
+<section class="content-section">
+    <h2>Related Publications</h2>
+    <p class="section-intro">The robotics work at Samsung SDS is largely unpublished. The publications below are the methodological foundations it builds on &mdash; uncertainty estimation, data-efficient 3D perception, and probabilistic modeling of physical systems.</p>
+
+    <div class="publication-item">
+        <a class="pub-title" href="https://arxiv.org/abs/2408.01694" target="_blank" rel="noopener">Bayesian Active Learning for Semantic Segmentation</a>
+        <div class="pub-venue"><em>arXiv:2408.01694</em>, 2024</div>
+        <p class="pub-note">Efficient uncertainty estimation for dense scene understanding &mdash; the perception side of embodied systems that must label and reason about their surroundings under a limited annotation budget.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2408.01694" target="_blank" rel="noopener">arXiv</a></div>
+    </div>
+
+    <div class="publication-item">
+        <span class="badge">ICML 2024</span>
+        <a class="pub-title" href="https://arxiv.org/abs/2405.06424" target="_blank" rel="noopener">Improving Instruction Following in Language Models through Proxy-Based Uncertainty Estimation</a>
+        <div class="pub-venue"><em>International Conference on Machine Learning (ICML)</em>, 2024</div>
+        <p class="pub-note">Uncertainty-aware reward modeling for instruction following &mdash; directly relevant to VLA models, which must follow language instructions and know when their interpretation is uncertain.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2405.06424" target="_blank" rel="noopener">arXiv</a></div>
+    </div>
+
+    <div class="publication-item">
+        <a class="pub-title" href="https://arxiv.org/abs/2208.04278" target="_blank" rel="noopener">Self-Supervised Contrastive Representation Learning for 3D Mesh Segmentation</a>
+        <div class="pub-venue"><em>arXiv:2208.04278</em>, 2022</div>
+        <p class="pub-note">Learning useful representations of 3D geometry without manual annotation, a building block for spatial understanding in embodied settings.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2208.04278" target="_blank" rel="noopener">arXiv</a></div>
+    </div>
+
+    <div class="publication-item">
+        <span class="pub-title">Modeling and Optimizing the Impact of Process and Equipment Parameters in Sputtering Deposition Systems Using a Gaussian Process Machine Learning Framework</span>
+        <div class="pub-venue"><em>IEEE Transactions on Semiconductor Manufacturing</em>, 2021</div>
+        <p class="pub-note">Gaussian Process modeling and optimization of a real physical deposition process, in collaboration with MIT &mdash; probabilistic modeling of physical systems with calibrated uncertainty.</p>
+    </div>
+</section>
+
+<div class="back-link">
+    <a href="{{ '/' | relative_url }}">&larr; Back to portfolio</a>
+</div>

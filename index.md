@@ -1,238 +1,281 @@
 ---
 layout: default
-title: Sima Didari - AI Research
+title: Sima Didari - Senior Staff AI Scientist
+description: Senior Staff AI Scientist working on robotics and physical AI, generative AI and large language models, and computer vision.
 ---
-<div class="header">
-    <div class="profile-section">
-        <img src="images/profile.jpg" alt="Sima Didari" class="profile-image">
-        <div class="profile-info">
+
+<header class="hero">
+    <div class="hero-top">
+        <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Sima Didari" class="profile-image">
+        <div>
             <h1>Sima Didari</h1>
-            <div class="profile-summary">
-                <p>Welcome to my research portfolio. I am a Senior Staff AI Scientist with 10+ years of experience in Deep Learning, Computer Vision, Bayesian Machine Learning, Generative AI, and Large Language Models. My work focuses on developing foundational AI technologies and translating cutting-edge research into real-world applications that create significant impact across industries.</p>
-                
-                <p>For more detailed explanations of my research interests and current projects, please explore the research area tabs below.</p>
-            </div>
+            <p class="hero-role"><strong>Senior Staff AI Scientist</strong> &middot; AI Science Lab, Samsung SDS &middot; San Jose, CA</p>
         </div>
     </div>
-    
+
+    <div class="hero-summary">
+        <p>I am a Senior Staff AI Scientist with 10+ years of experience in Deep Learning, Computer Vision, Large Language Models, and Robotics. My work focuses on product development from research to deployment, leading cross-functional teams to deliver AI solutions that create business value.</p>
+
+        <p>I contribute to the research community through publications in peer-reviewed venues and hold multiple patents in AI and machine learning technologies. The research tabs below describe each of my areas in more detail, along with the publications that came out of them.</p>
+    </div>
+
     <div class="contact-info">
         <a href="mailto:Sima.Didari@gmail.com" class="contact-item">
-            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
             </svg>
             Sima.Didari@gmail.com
         </a>
-        <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" class="contact-item" target="_blank">
-            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M5.242 13.769L0.5 9.5 12 1l11.5 8.5-4.742 4.269C17.548 14.359 14.899 14.5 12 14.5c-2.899 0-5.548-.141-6.758-.731z"/>
-                <path d="M12 14.5c-2.899 0-5.548-.141-6.758-.731L0.5 18.5 12 23l11.5-4.5-4.742-4.731C17.548 14.359 14.899 14.5 12 14.5z"/>
-            </svg>
-            Google Scholar
-        </a>
-        <a href="https://linkedin.com/in/simadidari" class="contact-item" target="_blank">
-            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+        <a href="https://linkedin.com/in/simadidari" class="contact-item" target="_blank" rel="noopener">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
             </svg>
             LinkedIn
         </a>
-        <a href="https://github.com/SimaDidari" class="contact-item" target="_blank">
-            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+        <a href="https://github.com/SimaDidari" class="contact-item" target="_blank" rel="noopener">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
             </svg>
             GitHub
         </a>
-
     </div>
-</div>
+</header>
 
-<div class="content-section">
+<section class="content-section" id="news">
+    <div class="section-label">2026</div>
+    <h2>News</h2>
+    <p class="section-intro">Latest research news and publications from this year.</p>
+
+    <div class="publication-item">
+        <span class="badge">ICLR 2026</span>
+        <span class="pub-title">Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees</span>
+        <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
+        <p class="pub-note">A query-aware flow diffusion formulation for graph-based retrieval-augmented generation that comes with retrieval guarantees, improving which evidence a RAG system surfaces for a given query.</p>
+        <div class="pub-links"><a href="{{ '/genai.html' | relative_url }}">More on Generative AI &amp; LLMs &rarr;</a></div>
+    </div>
+</section>
+
+<section class="content-section" id="research">
+    <div class="section-label">Research</div>
     <h2>Research Interests</h2>
-    
-    <p style="margin-bottom: 30px;">My research is focused on developing methods that advance the state-of-the-art and address real-world challenges in industry.</p>
-    
+    <p class="section-intro">My research develops methods that advance the state of the art while addressing real-world challenges in industry. Each area below lists its own related publications.</p>
+
     <div class="research-tabs">
-        <div class="tabs-header">
-            <button class="tab-button" onclick="showTab('genai')">Generative AI & LLMs</button>
-            <button class="tab-button" onclick="showTab('computer-vision')">Computer Vision</button>
-            <button class="tab-button" onclick="showTab('optimization')">Optimization & ML</button>
+        <div class="tabs-header" role="tablist">
+            <button class="tab-button" type="button" role="tab" data-tab="robotics">Robotics and Physical AI</button>
+            <button class="tab-button" type="button" role="tab" data-tab="genai">Generative AI &amp; LLMs</button>
+            <button class="tab-button" type="button" role="tab" data-tab="computer-vision">Computer Vision</button>
         </div>
-        
-        <div id="genai" class="tab-content">
-            <div style="margin: 40px 0;">
-                <h3>Generative AI & Large Language Models</h3>
-                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My work in generative AI focuses on developing more reliable and efficient language models through novel uncertainty quantification methods and data-efficient alignment techniques. I am particularly interested in creating multimodal systems that can seamlessly integrate text, image, and structured data to solve complex real-world problems.</p>
-                
-                <h4>Current Research Focus</h4>
-                <ul style="margin-bottom: 20px;">
-                    <li>Data-efficient alignment techniques and fine-tuning for large language models</li>
-                    <li>Proxy-based uncertainty estimation for improving instruction following</li>
-                    <li>Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks</li>
-                    <li>Text-to-SQL generation and automated coding assistance</li>
-                    <li>Graph learning approaches for RL alignment and structured reasoning</li>
-                    <li>Multimodal LLMs for text, image, and tabular data integration</li>
-                    <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
-                    <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
-                    <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
-                    <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
-                </ul>
-                
-                <a href="genai.html" class="explore-button">Explore Research</a>
-            </div>
-        </div>
-        
-        <div id="computer-vision" class="tab-content">
-            <div style="margin: 40px 0;">
-                <h3>Computer Vision & Deep Learning</h3>
-                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My computer vision research centers on developing intelligent systems that can learn effectively with minimal supervision while providing reliable uncertainty estimates. I focus on active learning frameworks and self-supervised methods that dramatically reduce annotation costs while maintaining high performance, particularly for medical and industrial applications.</p>
-                
-                <h4>Research Contributions</h4>
-                <ul style="margin-bottom: 20px;">
-                    <li>Bayesian active learning frameworks for semantic segmentation</li>
-                    <li>Self-supervised representation learning for 3D mesh analysis</li>
-                    <li>Uncertainty-aware computer vision for medical imaging</li>
-                    <li>Multi-view 3D semantic segmentation systems</li>
-                    <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
-                    <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
-                    <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
-                    <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
-                </ul>
-                
-                <a href="computer-vision.html" class="explore-button">Explore Research</a>
-            </div>
-        </div>
-        
-        <div id="optimization" class="tab-content">
-            <div style="margin: 40px 0;">
-                <h3>Optimization & Machine Learning</h3>
-                <p style="font-size: 1em; color: #666; margin-bottom: 20px;">My optimization research bridges mathematical optimization theory with practical machine learning applications, focusing on Bayesian methods that provide principled uncertainty quantification. I develop frameworks that enable robust, efficient decision-making in complex engineering and business environments where understanding uncertainty is critical for safe and effective AI deployment.</p>
-                
-                <h4>Key Methodologies</h4>
-                <ul style="margin-bottom: 20px;">
-                    <li>Gaussian Process frameworks for process optimization</li>
-                    <li>Bayesian optimization for hyperparameter tuning and design</li>
-                    <li>Uncertainty quantification in complex engineering systems</li>
-                    <li>Predictive analytics for industrial applications</li>
-                    <li><strong>Uncertainty-Aware AI:</strong> Developing methods that quantify and leverage uncertainty for more reliable AI systems</li>
-                    <li><strong>Data Efficiency:</strong> Creating learning algorithms that achieve superior performance with minimal labeled data</li>
-                    <li><strong>Industrial Translation:</strong> Bridging the gap between research innovations and practical industrial applications</li>
-                    <li><strong>Human-AI Collaboration:</strong> Designing systems that effectively combine human expertise with AI capabilities</li>
-                </ul>
-                
-                <a href="optimization.html" class="explore-button">Explore Research</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="content-section">
-    <h2>Recent Publications</h2>
-    <p style="margin-bottom: 20px;">For a complete list of publications and citations, please visit my <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Google Scholar profile</a>.</p>
-    
-    <div class="publication-item">
-        <strong>Improving instruction following in language models through proxy-based uncertainty estimation</strong><br>
-        <em>International Conference on Machine Learning (ICML), 2024</em><br>
-        <p style="margin-top: 10px; color: #666; font-size: 0.95em;">Novel uncertainty-aware reward model that significantly improves LLM alignment with reduced human feedback requirements. Demonstrates substantial improvements on Vicuna and MT-bench evaluations.</p>
-    </div>
-    
-    <div class="publication-item">
-        <strong>Bayesian active learning for semantic segmentation</strong><br>
-        <em>arXiv:2408.01694, 2024</em><br>
-        <p style="margin-top: 10px; color: #666; font-size: 0.95em;">Introduces Beta distribution approximation for efficient uncertainty estimation in semantic segmentation, achieving significant annotation cost reductions.</p>
-    </div>
-    
-    <div class="publication-item">
-        <strong>Self-Supervised contrastive representation learning for 3D mesh segmentation</strong><br>
-        <em>arXiv:2208.04278, 2022</em><br>
-        <p style="margin-top: 10px; color: #666; font-size: 0.95em;">Pioneering self-supervised approach for 3D geometric data analysis, eliminating the need for manual annotations in mesh segmentation tasks.</p>
-    </div>
-    
-    <div class="publication-item">
-        <strong>Active learning performance in labeling radiology images is 90% Effective</strong><br>
-        <em>Frontiers in Radiology, 2021</em><br>
-        <p style="margin-top: 10px; color: #666; font-size: 0.95em;">Clinical validation demonstrating dramatic reduction in radiologist annotation burden while maintaining diagnostic accuracy.</p>
-    </div>
-    
-    <div class="publication-item">
-        <strong>Modeling and optimizing process parameters in sputtering systems using Gaussian processes</strong><br>
-        <em>IEEE Transactions on Semiconductor Manufacturing, 2021</em><br>
-        <p style="margin-top: 10px; color: #666; font-size: 0.95em;">Industrial application of Bayesian optimization resulting in significant yield improvements and cost reductions in semiconductor manufacturing.</p>
-    </div>
-</div>
+        <div id="robotics" class="tab-content" role="tabpanel">
+            <h3>Robotics and Physical AI</h3>
+            <div class="tab-panel-body">
+                <p>I work on data-efficient, reliable vision-language-action (VLA) models for real-world humanoid robot use cases, covering the full path from data collection through model development to deployment. Physical AI is the broader thread: giving embodied systems models that perceive, reason about, and act in the physical world, with the reliability and uncertainty awareness that safe deployment on real hardware demands.</p>
+            </div>
 
-<div class="content-section">
+            <h4>Current Focus</h4>
+            <ul class="bullets">
+                <li><strong>Vision-language-action models:</strong> data-efficient, reliable VLA policies for real-world humanoid robots</li>
+                <li><strong>Robot data pipelines:</strong> teleoperation and demonstration collection, curation, and scaling strategies for embodied datasets</li>
+                <li><strong>Embodied multimodal perception:</strong> grounding language and visual observations in 3D scene understanding for manipulation</li>
+                <li><strong>Reliability and uncertainty:</strong> quantifying policy uncertainty so embodied systems know when to act and when to defer</li>
+                <li><strong>Deployment on real hardware:</strong> closing the gap between benchmark performance and behavior on physical robots</li>
+            </ul>
+
+            <a href="{{ '/robotics.html' | relative_url }}" class="explore-button">Explore Research &rarr;</a>
+        </div>
+
+        <div id="genai" class="tab-content" role="tabpanel">
+            <h3>Generative AI &amp; Large Language Models</h3>
+            <div class="tab-panel-body">
+                <p>My work in generative AI focuses on making language models more reliable and more data-efficient: agentic models and memory management for multi-agent systems (MAS), data-efficient alignment techniques, retrieval-augmented generation, and multimodal LLMs tailored to text, image, and tabular data.</p>
+            </div>
+
+            <h4>Current Focus</h4>
+            <ul class="bullets">
+                <li><strong>Agentic models &amp; multi-agent systems:</strong> agent design and memory management for MAS</li>
+                <li><strong>Data-efficient alignment:</strong> preference training and fine-tuning that need less human feedback</li>
+                <li><strong>Uncertainty estimation:</strong> proxy-based uncertainty for improved instruction following</li>
+                <li><strong>Retrieval-augmented generation:</strong> graph-based RAG with retrieval guarantees for knowledge-intensive tasks</li>
+                <li><strong>Text-to-SQL:</strong> reinforcement learning with partial-match and verbal rewards for structured query generation</li>
+                <li><strong>Multimodal LLMs:</strong> unified handling of text, image, and tabular inputs</li>
+            </ul>
+
+            <a href="{{ '/genai.html' | relative_url }}" class="explore-button">Explore Research &rarr;</a>
+        </div>
+
+        <div id="computer-vision" class="tab-content" role="tabpanel">
+            <h3>Computer Vision</h3>
+            <div class="tab-panel-body">
+                <p>My computer vision research centers on systems that learn effectively with minimal supervision while providing reliable uncertainty estimates. I build active learning and unsupervised accuracy estimation frameworks for classification, object detection, and semantic segmentation, including a probabilistic multi-view 3D semantic segmentation active learning framework.</p>
+            </div>
+
+            <h4>Current Focus</h4>
+            <ul class="bullets">
+                <li><strong>Active learning:</strong> Bayesian frameworks for classification, object detection, and semantic segmentation</li>
+                <li><strong>Unsupervised accuracy estimation:</strong> assessing model quality without labeled evaluation data</li>
+                <li><strong>Multi-view 3D understanding:</strong> probabilistic 3D semantic segmentation across viewpoints</li>
+                <li><strong>Representation learning:</strong> self-supervised and contrastive methods that cut annotation cost</li>
+                <li><strong>Medical and industrial imaging:</strong> uncertainty-aware vision for high-stakes applications</li>
+            </ul>
+
+            <a href="{{ '/computer-vision.html' | relative_url }}" class="explore-button">Explore Research &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" id="experience">
+    <div class="section-label">Career</div>
+    <h2>Experience</h2>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-date">Feb 2019 &ndash; Present</div>
+            <div class="timeline-title">Senior Staff AI Scientist</div>
+            <div class="timeline-company">AI Science Lab, Samsung SDS &middot; San Jose, CA</div>
+            <p class="timeline-note">Promoted to Senior Staff AI Scientist in 2024</p>
+
+            <h4>Key Responsibilities</h4>
+            <ul class="bullets">
+                <li>Develop and deploy products, solutions, and service-differentiating technologies to secure Samsung's competitive advantages</li>
+                <li>Establish technical goals, lead task forces, and collaborate across Samsung and with external partners on technology development and transfer</li>
+            </ul>
+
+            <h4>Major Projects</h4>
+            <ul class="bullets">
+                <li><strong>Robotics:</strong> Developed data-efficient, reliable vision-language-action (VLA) models, covering data collection, model development, and deployment for real-world humanoid robot use cases</li>
+                <li><strong>Generative AI &amp; Large Language Models:</strong> Developed agentic models, memory management for multi-agent systems (MAS), data-efficient LLM alignment techniques, retrieval-augmented generation (RAG), and tailored multimodal LLMs for text, image, and tabular data</li>
+                <li><strong>Computer Vision:</strong> Developed active learning and unsupervised accuracy estimation frameworks for classification, object detection, and semantic segmentation; created a probabilistic multi-view 3D semantic segmentation active learning framework</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">Nov 2017 &ndash; Feb 2019</div>
+            <div class="timeline-title">Senior Data Scientist</div>
+            <div class="timeline-company">Data Science Group, Applied Materials &middot; Santa Clara, CA</div>
+            <ul class="bullets">
+                <li>Developed and deployed AI solutions to enhance engineering, services, and supply chain performance</li>
+                <li>Led AI application productization in collaboration with software, UI, and DevOps teams, as well as internal and external customers</li>
+                <li>Created end-of-life prediction Deep Learning and Machine Learning models for SmartFactory service solutions</li>
+                <li>Deployed a real-time Deep Learning anomaly detection web application for a semiconductor smart manufacturing platform</li>
+                <li>Developed a Gaussian Process Machine Learning framework for modeling the impact of process and equipment parameters on sputtering systems (in collaboration with MIT)</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">Aug 2014 &ndash; Nov 2017</div>
+            <div class="timeline-title">Research Engineer</div>
+            <div class="timeline-company">Probabilistic Lab, GE Global Research &middot; San Ramon, CA &amp; Niskayuna, NY</div>
+            <ul class="bullets">
+                <li>Developed probabilistic methods and Machine Learning models for calibration, validation, uncertainty quantification, optimization, and meta-modeling of asset digital twins</li>
+                <li>Contributed to GE's internal Gaussian Process Python package and Uncertainty Quantification application</li>
+                <li>Developed Bayesian Machine Learning solutions for life cycle prediction, design space optimization, and supply chain management</li>
+                <li>Built real-time defect recognition and image processing software for 3D CT composite data</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">Aug 2009 &ndash; May 2014</div>
+            <div class="timeline-title">Research Assistant</div>
+            <div class="timeline-company">Georgia Institute of Technology &middot; Atlanta, GA</div>
+            <ul class="bullets">
+                <li>Conducted research in computer-aided engineering (CAE), topology optimization, and image processing</li>
+                <li>Performed topological characterization and optimization of 3D composite porous microstructures</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" id="education">
+    <div class="section-label">Education</div>
     <h2>Education</h2>
-    
-    <div class="timeline-item">
-        <div class="timeline-date">May 2014</div>
-        <div class="timeline-title">Ph.D. & M.S. in Mechanical Engineering</div>
-        <div class="timeline-company">Georgia Institute of Technology | Atlanta, GA</div>
-    </div>
-    
-    <div class="timeline-item">
-        <div class="timeline-date">May 2005</div>
-        <div class="timeline-title">B.S. in Mechanical Engineering</div>
-        <div class="timeline-company">University of Tehran | Tehran, Iran</div>
-    </div>
-</div>
 
-<div class="content-section">
-    <h2>Professional Background</h2>
-    
-    <div class="timeline-item">
-        <div class="timeline-date">Feb 2019 – Present</div>
-        <div class="timeline-title">Senior Staff AI Scientist</div>
-        <div class="timeline-company">AI Science Lab, Samsung SDS | San Jose, CA</div>
-        <p><em>Promoted to Senior Staff AI Scientist in 2024</em></p>
-        
-        <h4>Key Responsibilities:</h4>
-        <ul>
-            <li>Develop and deploy products, solutions, and service-differentiating technologies to secure Samsung's competitive advantages</li>
-            <li>Establish technical goals, lead task forces, and collaborate across Samsung and external entities for technology development and transfer</li>
-        </ul>
-        
-        <h4>Major Projects:</h4>
-        <ul>
-            <li><strong>Generative AI & Large Language Models:</strong> Developed Text-to-SQL models, data-efficient LLM alignment techniques, and tailored multimodal LLMs for text, image, and tabular data formats</li>
-            <li><strong>Data-Efficient Deep Learning:</strong> Created representation and unsupervised learning algorithms to reduce labeling requirements for deep learning models</li>
-            <li><strong>Computer Vision:</strong> Developed Active Learning and Unsupervised Accuracy Estimation frameworks for classification, object detection, and semantic segmentation; created probabilistic Multi-View 3D semantic segmentation Active Learning framework</li>
-            <li><strong>Predictive Analytics:</strong> Built sales forecasting models for Samsung business units and optimized marketing strategies for sales campaigns</li>
-        </ul>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-date">May 2014</div>
+            <div class="timeline-title">Ph.D. &amp; M.S. in Mechanical Engineering</div>
+            <div class="timeline-company">Georgia Institute of Technology &middot; Atlanta, GA</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">May 2005</div>
+            <div class="timeline-title">B.S. in Mechanical Engineering</div>
+            <div class="timeline-company">University of Tehran &middot; Tehran, Iran</div>
+        </div>
     </div>
-    
-    <div class="timeline-item">
-        <div class="timeline-date">Nov 2017 – Feb 2019</div>
-        <div class="timeline-title">Senior Data Scientist</div>
-        <div class="timeline-company">Data Science Group, Applied Materials | Santa Clara, CA</div>
-        <ul>
-            <li>Developed and deployed AI solutions to enhance engineering, services, and supply chain performance</li>
-            <li>Led AI application productization in collaboration with Software, UI, DevOps teams, and internal/external customers</li>
-            <li>Created end-of-life prediction Deep Learning and Machine Learning models for SmartFactory service solutions</li>
-            <li>Deployed real-time Deep Learning anomaly detection web application for semiconductor smart manufacturing platform</li>
-            <li>Developed Gaussian Process Machine Learning framework for modeling process and equipment parameter impacts on sputtering systems (collaboration with MIT)</li>
-        </ul>
+</section>
+
+<section class="content-section" id="patents">
+    <div class="section-label">Intellectual Property</div>
+    <h2>Selected Patents</h2>
+
+    <div class="patent-item">
+        <div class="patent-title">Bayesian semantic segmentation active learning with Beta approximation</div>
+        <div class="patent-id">US 20230368507</div>
     </div>
-    
-    <div class="timeline-item">
-        <div class="timeline-date">Aug 2014 – Nov 2017</div>
-        <div class="timeline-title">Research Engineer</div>
-        <div class="timeline-company">Probabilistic Lab, GE Global Research | San Ramon, CA & Niskayuna, NY</div>
-        <ul>
-            <li>Developed probabilistic methods and machine learning models for calibration, validation, uncertainty quantification, optimization, and meta-modeling</li>
-            <li>Created defect detection software for manufacturing processes</li>
-            <li>Contributed to GE's internal Gaussian Process Python package and Uncertainty Quantification application</li>
-            <li>Developed Bayesian Machine Learning solutions for life cycle prediction, design space optimization, and supply chain management</li>
-            <li>Built real-time defect recognition and image processing software for 3D CT composite data</li>
-        </ul>
+    <div class="patent-item">
+        <div class="patent-title">Object discovery</div>
+        <div class="patent-id">US 20220383105</div>
     </div>
-    
-    <div class="timeline-item">
-        <div class="timeline-date">Aug 2009 – May 2014</div>
-        <div class="timeline-title">Research Assistant</div>
-        <div class="timeline-company">Georgia Institute of Technology | Atlanta, GA</div>
-        <ul>
-            <li>Conducted research in Computer-Aided Engineering (CAE), Topological Optimization, and Image Processing</li>
-            <li>Developed periodic surface parametric models to represent topology of porous microstructures</li>
-            <li>Performed topological characterization and optimization of 3D composite porous microstructures</li>
-        </ul>
+    <div class="patent-item">
+        <div class="patent-title">Unsupervised representation learning &amp; active learning to improve data efficiency</div>
+        <div class="patent-id">US 20220138935</div>
     </div>
-</div>
+    <div class="patent-item">
+        <div class="patent-title">System and method for characterizing conditions in a fluid mixing device</div>
+        <div class="patent-id">US 10682618</div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-title">Long short-term memory (LSTM) anomaly detection for multi-sensor equipment monitoring</div>
+        <div class="patent-id">US 20200104639</div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-title">Chamber matching with neural networks in a semiconductor equipment tool</div>
+        <div class="patent-id">US 20200243359</div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-title">Correcting component failure in an ion implant semiconductor manufacturing tool</div>
+        <div class="patent-id">US 20200251360</div>
+    </div>
+</section>
+
+<section class="content-section" id="awards">
+    <div class="section-label">Recognition</div>
+    <h2>Awards &amp; Recognition</h2>
+
+    <div class="award-item">
+        <div class="award-year">2024</div>
+        <div class="award-title">Samsung SDS Global Invitation Program</div>
+        <p class="award-body">One of 50 employees selected from across all divisions of Samsung SDS worldwide for outstanding performance; participated in special training on the business and culture of Samsung SDS.</p>
+    </div>
+    <div class="award-item">
+        <div class="award-year">2022</div>
+        <div class="award-title">Samsung SDS Circle of Excellence Award</div>
+        <p class="award-body">Granted by the CEO for outstanding performance, creativity, organizational ability, and teamwork.</p>
+    </div>
+    <div class="award-item">
+        <div class="award-year">2022</div>
+        <div class="award-title">Best Presentation Award &mdash; Future of Information and Communication Conference (FICC)</div>
+        <p class="award-body">For &ldquo;Medical Image Labeling via Active Learning is 90% Effective.&rdquo;</p>
+    </div>
+    <div class="award-item">
+        <div class="award-year">2017</div>
+        <div class="award-title">GE Above &amp; Beyond Award</div>
+        <p class="award-body">Development of an automated probabilistic testing framework.</p>
+    </div>
+    <div class="award-item">
+        <div class="award-year">2016</div>
+        <div class="award-title">GE Global Research ATMS Impact Award</div>
+        <p class="award-body">Outstanding contribution to the Artificial Lift Optimization project.</p>
+    </div>
+    <div class="award-item">
+        <div class="award-year">2015</div>
+        <div class="award-title">GE Bronze Award</div>
+        <p class="award-body">Outstanding contribution to Assisted Defect Recognition tools for composite microstructures.</p>
+    </div>
+    <div class="award-item">
+        <div class="award-year">2012</div>
+        <div class="award-title">ASME Outstanding Research Award</div>
+        <p class="award-body">International Mechanical Engineering Congress and Exposition.</p>
+    </div>
+</section>

@@ -1,11 +1,12 @@
 title: Sima Didari
-description: Senior Staff AI Scientist - Portfolio
+description: Senior Staff AI Scientist - Robotics & Physical AI, Generative AI & LLMs, Computer Vision
 baseurl: ""
 url: "https://simadidari.github.io"
 markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - .sass-cache/
   - .jekyll-cache/

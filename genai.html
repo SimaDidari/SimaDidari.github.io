@@ -1,47 +1,73 @@
 ---
 layout: default
-title: GenAI Projects - Sima Didari
+title: Generative AI & LLMs - Sima Didari
+description: Research on agentic models, multi-agent systems, LLM alignment, retrieval-augmented generation, and multimodal language models.
 ---
 
-<div class="content-section">
-    <h2>GenAI Projects</h2>
-    
-    <div class="project-item">
-        <div class="project-title">Proxy-Based Uncertainty Estimation for Improving Instruction Following in Language Models</div>
-        <p><a href="https://arxiv.org/abs/2405.06424" target="_blank">arXiv link</a></p>
-        <p><strong>Accepted at ICML 2024</strong></p>
-        
-        <p>We defined a novel Uncertainty-aware Reward Model (URM) for the preference training of LLMs based on Bayesian approximation to quantify the uncertainty of paired responses. We experimentally demonstrated that using URM in LLMs training boosts their instruction following capability and their policy optimization objectives. The URM based finetuning surpasses existing methods by a large margin on benchmarks such as Vicuna and MT-bench.</p>
-        
-        <p>The code & data for the paper are shared at <a href="https://github.com/SimaDidari/proxy_based_uncertainty" target="_blank">P-B-U Git Repo</a></p>
+<section class="content-section" style="border-top: none; padding-top: 48px;">
+    <div class="section-label">Research Area</div>
+    <h2>Generative AI &amp; Large Language Models</h2>
+    <p class="section-intro">Making language models more reliable and more data-efficient &mdash; from agentic systems and memory management for multi-agent setups, to alignment that needs less human feedback, to retrieval and multimodal reasoning over text, image, and tabular data.</p>
+</section>
+
+<section class="content-section">
+    <h2>Related Publications</h2>
+
+    <div class="publication-item">
+        <span class="badge">ICLR 2026</span>
+        <span class="pub-title">Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees</span>
+        <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
+        <p class="pub-note">A query-aware flow diffusion formulation for graph-based retrieval-augmented generation, with retrieval guarantees on the evidence surfaced for a given query.</p>
     </div>
-    
-    <div class="project-item">
-        <div class="project-title">Large Language Model Fine-tuning</div>
-        <p>Research on parameter-efficient fine-tuning methods including LoRA and QLoRA for domain-specific applications, with focus on scientific and technical text generation.</p>
+
+    <div class="publication-item">
+        <span class="badge">BigData 2025</span>
+        <span class="pub-title">PaVeRL-SQL: Text-to-SQL via Partial-Match Rewards and Verbal Reinforcement Learning</span>
+        <div class="pub-venue"><em>IEEE International Conference on Big Data (BigData)</em>, 2025</div>
+        <p class="pub-note">Combines partial-match rewards with verbal reinforcement learning so text-to-SQL models get useful learning signal from near-correct queries rather than only exact matches.</p>
     </div>
-    
-    <div class="project-item">
-        <div class="project-title">Retrieval-Augmented Generation Systems</div>
-        <p>Development of RAG architectures for knowledge-intensive tasks, incorporating vector databases and advanced retrieval mechanisms for technical document processing.</p>
+
+    <div class="publication-item">
+        <span class="badge">ICML 2024</span>
+        <a class="pub-title" href="https://arxiv.org/abs/2405.06424" target="_blank" rel="noopener">Improving Instruction Following in Language Models through Proxy-Based Uncertainty Estimation</a>
+        <div class="pub-venue"><em>International Conference on Machine Learning (ICML)</em>, 2024</div>
+        <p class="pub-note">Defines an Uncertainty-aware Reward Model (URM) for preference training of LLMs, using a Bayesian approximation to quantify the uncertainty of paired responses. URM-based fine-tuning boosts instruction-following capability and policy optimization objectives, surpassing existing methods by a large margin on benchmarks such as Vicuna and MT-Bench.</p>
+        <div class="pub-links">
+            <a href="https://arxiv.org/abs/2405.06424" target="_blank" rel="noopener">arXiv</a>
+            <a href="https://github.com/SimaDidari/proxy_based_uncertainty" target="_blank" rel="noopener">Code &amp; data</a>
+        </div>
     </div>
-    
+</section>
+
+<section class="content-section">
+    <h2>Project Highlights</h2>
+
     <div class="project-item">
-        <div class="project-title">Multi-Agent AI Systems</div>
-        <p>Implementation of collaborative AI agent frameworks using LangChain and AutoGen for complex problem-solving tasks requiring specialized reasoning capabilities.</p>
+        <div class="project-title">Agentic Models &amp; Multi-Agent Systems</div>
+        <p>Agent design and memory management for multi-agent systems (MAS), addressing how agents retain, share, and retrieve context across long-running collaborative tasks.</p>
     </div>
-    
+
     <div class="project-item">
-        <div class="project-title">Prompt Engineering and Optimization</div>
-        <p>Systematic approaches to prompt design and optimization for improved model performance across various tasks, including automated prompt generation techniques.</p>
+        <div class="project-title">Data-Efficient LLM Alignment</div>
+        <p>Alignment and fine-tuning techniques that reach strong instruction-following performance with substantially less human feedback, built on uncertainty-aware reward modeling.</p>
     </div>
-    
+
     <div class="project-item">
-        <div class="project-title">AI-Assisted Code Generation</div>
-        <p>Advanced code generation systems for automated programming tasks, including documentation generation, code review, and algorithm implementation assistance.</p>
+        <div class="project-title">Retrieval-Augmented Generation</div>
+        <p>RAG architectures for knowledge-intensive tasks, including graph-based retrieval with formal guarantees on which evidence a query recovers.</p>
     </div>
-</div>
+
+    <div class="project-item">
+        <div class="project-title">Text-to-SQL Generation</div>
+        <p>Reinforcement learning for structured query generation, using partial-match rewards and verbal feedback to make training signal denser and more informative.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Multimodal LLMs</div>
+        <p>Language models tailored to text, image, and tabular data, supporting business and engineering workflows where the inputs are rarely text alone.</p>
+    </div>
+</section>
 
 <div class="back-link">
-    <a href="/">← Back to Portfolio</a>
+    <a href="{{ '/' | relative_url }}">&larr; Back to portfolio</a>
 </div>

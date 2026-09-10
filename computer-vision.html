@@ -1,45 +1,75 @@
 ---
 layout: default
-title: Computer Vision Projects - Sima Didari
+title: Computer Vision - Sima Didari
+description: Research on active learning, unsupervised accuracy estimation, uncertainty-aware vision, and multi-view 3D semantic segmentation.
 ---
 
-<div class="content-section">
-    <h2>Computer Vision & Deep Learning Projects</h2>
-    
-    <div class="project-item">
-        <div class="project-title">Bayesian Active Learning for Semantic Segmentation</div>
-        <p><a href="https://arxiv.org/abs/2408.01694" target="_blank">arXiv link</a></p>
-        <p>Introduces Beta distribution approximation for efficient uncertainty estimation in semantic segmentation, achieving significant annotation cost reductions through intelligent sample selection.</p>
+<section class="content-section" style="border-top: none; padding-top: 48px;">
+    <div class="section-label">Research Area</div>
+    <h2>Computer Vision</h2>
+    <p class="section-intro">Vision systems that learn from as little labeled data as possible while staying honest about what they do not know &mdash; active learning and unsupervised accuracy estimation for classification, object detection, and semantic segmentation, including probabilistic multi-view 3D understanding.</p>
+</section>
+
+<section class="content-section">
+    <h2>Related Publications</h2>
+
+    <div class="publication-item">
+        <a class="pub-title" href="https://arxiv.org/abs/2408.01694" target="_blank" rel="noopener">Bayesian Active Learning for Semantic Segmentation</a>
+        <div class="pub-venue"><em>arXiv:2408.01694</em>, 2024</div>
+        <p class="pub-note">Introduces a Beta distribution approximation for efficient uncertainty estimation in semantic segmentation, achieving significant annotation cost reductions through intelligent sample selection.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2408.01694" target="_blank" rel="noopener">arXiv</a></div>
     </div>
-    
-    <div class="project-item">
-        <div class="project-title">Self-Supervised Contrastive Learning for 3D Mesh Segmentation</div>
-        <p><a href="https://arxiv.org/abs/2208.04278" target="_blank">arXiv link</a></p>
-        <p>Pioneering self-supervised approach for 3D geometric data analysis, eliminating the need for manual annotations in mesh segmentation tasks through contrastive learning techniques.</p>
+
+    <div class="publication-item">
+        <a class="pub-title" href="https://arxiv.org/abs/2208.04278" target="_blank" rel="noopener">Self-Supervised Contrastive Representation Learning for 3D Mesh Segmentation</a>
+        <div class="pub-venue"><em>arXiv:2208.04278</em>, 2022</div>
+        <p class="pub-note">A self-supervised approach to 3D geometric data analysis that removes the need for manual annotation in mesh segmentation tasks.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2208.04278" target="_blank" rel="noopener">arXiv</a></div>
     </div>
-    
-    <div class="project-item">
-        <div class="project-title">Active Learning for Medical Imaging</div>
-        <p><em>Published in Frontiers in Radiology, 2021</em></p>
-        <p>Clinical validation demonstrating dramatic reduction in radiologist annotation burden while maintaining diagnostic accuracy through uncertainty-guided active learning frameworks.</p>
+
+    <div class="publication-item">
+        <span class="badge">NeurIPS Workshop</span>
+        <span class="pub-title">Highly Efficient Representation and Active Learning Framework for Imbalanced Data and Its Application to COVID-19 X-Ray Classification</span>
+        <div class="pub-venue"><em>NeurIPS Data-Centric AI Workshop</em>, 2021</div>
+        <p class="pub-note">A representation and active learning framework built for heavily imbalanced datasets, validated on COVID-19 chest X-ray classification.</p>
     </div>
-    
+
+    <div class="publication-item">
+        <span class="pub-title">Active Learning Performance in Labeling Radiology Images is 90% Effective</span>
+        <div class="pub-venue"><em>Frontiers in Radiology</em>, 2021</div>
+        <p class="pub-note">Clinical validation showing a substantial reduction in radiologist annotation burden while maintaining diagnostic accuracy. Received the Best Presentation Award at FICC 2022.</p>
+    </div>
+</section>
+
+<section class="content-section">
+    <h2>Project Highlights</h2>
+
+    <div class="project-item">
+        <div class="project-title">Active Learning Across Vision Tasks</div>
+        <p>Active learning frameworks spanning classification, object detection, and semantic segmentation, deployed to cut labeling budgets on industrial and medical datasets.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Unsupervised Accuracy Estimation</div>
+        <p>Methods for estimating how well a deployed vision model is performing without access to labeled evaluation data &mdash; essential when distributions shift after deployment.</p>
+    </div>
+
     <div class="project-item">
         <div class="project-title">Multi-View 3D Semantic Segmentation</div>
-        <p>Probabilistic framework for 3D scene understanding that leverages multiple viewpoints to improve segmentation accuracy while quantifying prediction uncertainty.</p>
+        <p>A probabilistic active learning framework for 3D scene understanding that fuses multiple viewpoints to improve segmentation accuracy while quantifying prediction uncertainty.</p>
     </div>
-    
+
     <div class="project-item">
-        <div class="project-title">Uncertainty-Aware Computer Vision</div>
-        <p>Development of computer vision systems that provide reliable confidence estimates for critical applications in medical imaging and autonomous systems.</p>
+        <div class="project-title">Uncertainty-Aware Vision for Medical Imaging</div>
+        <p>Vision systems that provide reliable confidence estimates for high-stakes applications, letting clinicians know which predictions warrant review.</p>
     </div>
-    
+
     <div class="project-item">
-        <div class="project-title">Real-Time Defect Detection</div>
-        <p>Industrial computer vision systems for manufacturing quality control, including 3D CT composite data analysis and automated defect recognition.</p>
+        <div class="project-title">Real-Time Defect Recognition</div>
+        <p>Industrial vision systems for manufacturing quality control, including real-time defect recognition and image processing for 3D CT composite data.</p>
     </div>
-</div>
+</section>
 
 <div class="back-link">
-    <a href="/">← Back to Portfolio</a>
+    <a href="{{ '/' | relative_url }}">&larr; Back to portfolio</a>
 </div>
