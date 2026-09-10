@@ -220,7 +220,7 @@ description: Senior Staff AI Scientist working on robotics and physical AI, gene
 <section class="content-section" id="patents">
     <div class="section-label">Intellectual Property</div>
     <h2>Patents</h2>
-    <p class="section-intro">Nine granted US patents spanning machine learning, semiconductor manufacturing, and bioprocess systems. Continuations and foreign counterparts are listed under their primary grant.</p>
+    <p class="section-intro">Nine granted US patents spanning machine learning, semiconductor manufacturing, and bioprocess systems.</p>
 
     <h4>AI &amp; Machine Learning &mdash; Samsung SDS America</h4>
     <div class="patent-item">
