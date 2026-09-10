@@ -54,10 +54,16 @@ description: Senior Staff AI Scientist working on robotics and physical AI, gene
 
     <div class="publication-item">
         <span class="badge">ICLR 2026</span>
-        <span class="pub-title">Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees</span>
-        <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
-        <p class="pub-note">A query-aware flow diffusion formulation for graph-based retrieval-augmented generation that comes with retrieval guarantees, improving which evidence a RAG system surfaces for a given query.</p>
-        <div class="pub-links"><a href="{{ '/genai.html' | relative_url }}">More on Generative AI &amp; LLMs &rarr;</a></div>
+        <span class="badge badge-alt">Open source</span>
+        <a class="pub-title" href="https://qafd-rag.github.io/" target="_blank" rel="noopener">QAFD-RAG: Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees</a>
+        <div class="pub-venue">Accepted at the <em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
+        <p class="pub-note">QAFD-RAG introduces the first principled flow diffusion for graph-based retrieval-augmented generation, reweighting graph edges online according to the meaning of the query. It comes with exponential convergence guarantees and reaches state-of-the-art results across multiple benchmarks. <strong>The work is open sourced</strong> &mdash; code, models, and the paper are all available from the project page.</p>
+        <div class="pub-links">
+            <a href="https://qafd-rag.github.io/" target="_blank" rel="noopener">Project page</a>
+            <a href="https://github.com/Tarzanagh/QAFD-RAG" target="_blank" rel="noopener">Code</a>
+            <a href="https://openreview.net/forum?id=n28wnc2QTc" target="_blank" rel="noopener">Paper</a>
+            <a href="https://huggingface.co/tarzanagh/QAFD-RAG" target="_blank" rel="noopener">Hugging Face</a>
+        </div>
     </div>
 </section>
 
