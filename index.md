@@ -219,35 +219,49 @@ description: Senior Staff AI Scientist working on robotics and physical AI, gene
 
 <section class="content-section" id="patents">
     <div class="section-label">Intellectual Property</div>
-    <h2>Selected Patents</h2>
+    <h2>Patents</h2>
+    <p class="section-intro">Nine granted US patents spanning machine learning, semiconductor manufacturing, and bioprocess systems. Continuations and foreign counterparts are listed under their primary grant.</p>
 
+    <h4>AI &amp; Machine Learning &mdash; Samsung SDS America</h4>
     <div class="patent-item">
         <div class="patent-title">Bayesian semantic segmentation active learning with Beta approximation</div>
-        <div class="patent-id">US 20230368507</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US12494046B2/en" target="_blank" rel="noopener">US 12,494,046 B2</a> &middot; Granted 2025 &middot; App. US 2023/0368507</div>
     </div>
     <div class="patent-item">
-        <div class="patent-title">Object discovery</div>
-        <div class="patent-id">US 20220383105</div>
+        <div class="patent-title">Object discovery using an autoencoder</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US12468939B2/en" target="_blank" rel="noopener">US 12,468,939 B2</a> &middot; Granted 2025 &middot; App. US 2022/0383105</div>
     </div>
     <div class="patent-item">
-        <div class="patent-title">Unsupervised representation learning &amp; active learning to improve data efficiency</div>
-        <div class="patent-id">US 20220138935</div>
+        <div class="patent-title">Unsupervised representation learning and active learning to improve data efficiency</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US12165311B2/en" target="_blank" rel="noopener">US 12,165,311 B2</a> &middot; Granted 2024 &middot; App. US 2022/0138935</div>
+    </div>
+
+    <h4>Semiconductor Manufacturing &mdash; Applied Materials</h4>
+    <div class="patent-item">
+        <div class="patent-title">Long short-term memory (LSTM) anomaly detection for multi-sensor equipment monitoring</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US12067485B2/en" target="_blank" rel="noopener">US 12,067,485 B2</a> &middot; Granted 2024 &middot; App. US 2020/0104639</div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-title">Correcting component failures in an ion implant semiconductor manufacturing tool</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US11348813B2/en" target="_blank" rel="noopener">US 11,348,813 B2</a> &middot; Granted 2022 &middot; Continuation US 11,862,493 B2 (2024)</div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-title">Chamber matching with neural networks in semiconductor equipment tools</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US11133204B2/en" target="_blank" rel="noopener">US 11,133,204 B2</a> &middot; Granted 2021 &middot; App. US 2020/0243359</div>
+    </div>
+
+    <h4>Bioprocess &amp; Fluid Systems &mdash; GE / Global Life Sciences Solutions</h4>
+    <div class="patent-item">
+        <div class="patent-title">Magnetic mixers</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US11969701B2/en" target="_blank" rel="noopener">US 11,969,701 B2</a> &middot; Granted 2024</div>
     </div>
     <div class="patent-item">
         <div class="patent-title">System and method for characterizing conditions in a fluid mixing device</div>
-        <div class="patent-id">US 10682618</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US10682618B2/en" target="_blank" rel="noopener">US 10,682,618 B2</a> &middot; Granted 2020</div>
     </div>
     <div class="patent-item">
-        <div class="patent-title">Long short-term memory (LSTM) anomaly detection for multi-sensor equipment monitoring</div>
-        <div class="patent-id">US 20200104639</div>
-    </div>
-    <div class="patent-item">
-        <div class="patent-title">Chamber matching with neural networks in a semiconductor equipment tool</div>
-        <div class="patent-id">US 20200243359</div>
-    </div>
-    <div class="patent-item">
-        <div class="patent-title">Correcting component failure in an ion implant semiconductor manufacturing tool</div>
-        <div class="patent-id">US 20200251360</div>
+        <div class="patent-title">Magnetic drive for bioreactor</div>
+        <div class="patent-id"><a href="https://patents.google.com/patent/US10335750B2/en" target="_blank" rel="noopener">US 10,335,750 B2</a> &middot; Granted 2019</div>
     </div>
 </section>
 
